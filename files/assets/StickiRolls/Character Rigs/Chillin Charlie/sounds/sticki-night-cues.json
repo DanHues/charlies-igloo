@@ -1,0 +1,282 @@
+[
+  {
+    "start": 102,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-snow_1.mp3",
+    "durationSec": 0.38,
+    "volume": 0.54,
+    "label": "Chillin' Charlie step (snow) · scene igloo @102"
+  },
+  {
+    "start": 188,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-snow_2.mp3",
+    "durationSec": 0.34,
+    "volume": 0.51,
+    "label": "Chillin' Charlie step (snow) · scene igloo @188"
+  },
+  {
+    "start": 192,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-snow_3.mp3",
+    "durationSec": 0.48,
+    "volume": 0.54,
+    "label": "Chillin' Charlie step (snow) · scene igloo @192"
+  },
+  {
+    "start": 196,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-snow_2.mp3",
+    "durationSec": 0.34,
+    "volume": 0.55,
+    "label": "Chillin' Charlie step (snow) · scene igloo @196"
+  },
+  {
+    "start": 200,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-snow_4.mp3",
+    "durationSec": 0.48,
+    "volume": 0.54,
+    "label": "Chillin' Charlie step (snow) · scene igloo @200"
+  },
+  {
+    "start": 204,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-snow_3.mp3",
+    "durationSec": 0.48,
+    "volume": 0.54,
+    "label": "Chillin' Charlie step (snow) · scene igloo @204"
+  },
+  {
+    "start": 221,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-snow_4.mp3",
+    "durationSec": 0.48,
+    "volume": 0.58,
+    "label": "Chillin' Charlie step (snow) · scene igloo @221"
+  },
+  {
+    "start": 228,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-snow_2.mp3",
+    "durationSec": 0.34,
+    "volume": 0.62,
+    "label": "Chillin' Charlie step (snow) · scene igloo @228"
+  },
+  {
+    "start": 235,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-snow_3.mp3",
+    "durationSec": 0.48,
+    "volume": 0.56,
+    "label": "Chillin' Charlie step (snow) · scene igloo @235"
+  },
+  {
+    "start": 243,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-snow_4.mp3",
+    "durationSec": 0.48,
+    "volume": 0.6,
+    "label": "Chillin' Charlie step (snow) · scene igloo @243"
+  },
+  {
+    "start": 250,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-rug_3.mp3",
+    "durationSec": 0.37,
+    "volume": 0.63,
+    "label": "Chillin' Charlie step (rug) · scene igloo @250"
+  },
+  {
+    "start": 257,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-rug_1.mp3",
+    "durationSec": 0.395,
+    "volume": 0.6,
+    "label": "Chillin' Charlie step (rug) · scene igloo @257"
+  },
+  {
+    "start": 264,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-rug_3.mp3",
+    "durationSec": 0.37,
+    "volume": 0.62,
+    "label": "Chillin' Charlie step (rug) · scene igloo @264"
+  },
+  {
+    "start": 271,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-rug_2.mp3",
+    "durationSec": 0.375,
+    "volume": 0.61,
+    "label": "Chillin' Charlie step (rug) · scene igloo @271"
+  },
+  {
+    "start": 278,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-rug_3.mp3",
+    "durationSec": 0.37,
+    "volume": 0.64,
+    "label": "Chillin' Charlie step (rug) · scene igloo @278"
+  },
+  {
+    "start": 290,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-rug_2.mp3",
+    "durationSec": 0.375,
+    "volume": 0.58,
+    "label": "Chillin' Charlie step (rug) · scene igloo @290"
+  },
+  {
+    "start": 295,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-rug_3.mp3",
+    "durationSec": 0.37,
+    "volume": 0.53,
+    "label": "Chillin' Charlie step (rug) · scene igloo @295"
+  },
+  {
+    "start": 300,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-rug_1.mp3",
+    "durationSec": 0.395,
+    "volume": 0.48,
+    "label": "Chillin' Charlie step (rug) · scene igloo @300"
+  },
+  {
+    "start": 303,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-rug_2.mp3",
+    "durationSec": 0.375,
+    "volume": 0.48,
+    "label": "Chillin' Charlie step (rug) · scene igloo @303"
+  },
+  {
+    "start": 310,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-rug_3.mp3",
+    "durationSec": 0.37,
+    "volume": 0.53,
+    "label": "Chillin' Charlie step (rug) · scene igloo @310"
+  },
+  {
+    "start": 848,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-rug_1.mp3",
+    "durationSec": 0.395,
+    "volume": 0.56,
+    "label": "Chillin' Charlie step (rug) · scene igloo @848"
+  },
+  {
+    "start": 856,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-rug_2.mp3",
+    "durationSec": 0.375,
+    "volume": 0.51,
+    "label": "Chillin' Charlie step (rug) · scene igloo @856"
+  },
+  {
+    "start": 885,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-rug_3.mp3",
+    "durationSec": 0.37,
+    "volume": 0.6,
+    "label": "Chillin' Charlie step (rug) · scene igloo @885"
+  },
+  {
+    "start": 900,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-rug_2.mp3",
+    "durationSec": 0.375,
+    "volume": 0.57,
+    "label": "Chillin' Charlie step (rug) · scene igloo @900"
+  },
+  {
+    "start": 916,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-rug_3.mp3",
+    "durationSec": 0.37,
+    "volume": 0.56,
+    "label": "Chillin' Charlie step (rug) · scene igloo @916"
+  },
+  {
+    "start": 931,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-rug_2.mp3",
+    "durationSec": 0.375,
+    "volume": 0.59,
+    "label": "Chillin' Charlie step (rug) · scene igloo @931"
+  },
+  {
+    "start": 946,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-rug_3.mp3",
+    "durationSec": 0.37,
+    "volume": 0.64,
+    "label": "Chillin' Charlie step (rug) · scene igloo @946"
+  },
+  {
+    "start": 966,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-rug_2.mp3",
+    "durationSec": 0.375,
+    "volume": 0.57,
+    "label": "Chillin' Charlie step (rug) · scene igloo @966"
+  },
+  {
+    "start": 971,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-rug_3.mp3",
+    "durationSec": 0.37,
+    "volume": 0.53,
+    "label": "Chillin' Charlie step (rug) · scene igloo @971"
+  },
+  {
+    "start": 976,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-rug_2.mp3",
+    "durationSec": 0.375,
+    "volume": 0.5,
+    "label": "Chillin' Charlie step (rug) · scene igloo @976"
+  },
+  {
+    "start": 1011,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-snow_2.mp3",
+    "durationSec": 0.34,
+    "volume": 0.6,
+    "label": "Chillin' Charlie step (snow) · scene island @31"
+  },
+  {
+    "start": 1018,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-snow_3.mp3",
+    "durationSec": 0.48,
+    "volume": 0.57,
+    "label": "Chillin' Charlie step (snow) · scene island @38"
+  },
+  {
+    "start": 1238,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-snow_4.mp3",
+    "durationSec": 0.48,
+    "volume": 0.6,
+    "label": "Chillin' Charlie step (snow) · scene island @258"
+  },
+  {
+    "start": 1245,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-snow_1.mp3",
+    "durationSec": 0.38,
+    "volume": 0.61,
+    "label": "Chillin' Charlie step (snow) · scene island @265"
+  },
+  {
+    "start": 1252,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-snow_3.mp3",
+    "durationSec": 0.48,
+    "volume": 0.6,
+    "label": "Chillin' Charlie step (snow) · scene island @272"
+  },
+  {
+    "start": 1264,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-snow_4.mp3",
+    "durationSec": 0.48,
+    "volume": 0.62,
+    "label": "Chillin' Charlie step (snow) · scene island @284"
+  },
+  {
+    "start": 1269,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-snow_1.mp3",
+    "durationSec": 0.38,
+    "volume": 0.53,
+    "label": "Chillin' Charlie step (snow) · scene island @289"
+  },
+  {
+    "start": 1274,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-snow_3.mp3",
+    "durationSec": 0.48,
+    "volume": 0.48,
+    "label": "Chillin' Charlie step (snow) · scene island @294"
+  },
+  {
+    "start": 1280,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-snow_4.mp3",
+    "durationSec": 0.48,
+    "volume": 0.52,
+    "label": "Chillin' Charlie step (snow) · scene island @300"
+  },
+  {
+    "start": 1288,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-snow_2.mp3",
+    "durationSec": 0.34,
+    "volume": 0.52,
+    "label": "Chillin' Charlie step (snow) · scene island @308"
+  }
+]

@@ -1,0 +1,939 @@
+{
+  "character": "stickirolls-chillin-charlie",
+  "voice": "a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
+  "feet": "small padded penguin feet, soft muffled thumps; heavier than Axie",
+  "levels": {
+    "note": "Every clip is levelled per category (RMS dBFS of its sounding part) and trimmed to its onset, so a clip plays on its cue frame. Use `volume` as the track volume.",
+    "target": {
+      "step": -27,
+      "impact": -23,
+      "foley": -25,
+      "vocal": -21,
+      "fx": -24
+    }
+  },
+  "generator": "Animation Suite: npx tsx scripts/make-sound-library.ts (ElevenLabs eleven_text_to_sound_v3)",
+  "sounds": [
+    {
+      "id": "step-snow",
+      "category": "step",
+      "triggers": [
+        "walk",
+        "stroll",
+        "approach",
+        "turn"
+      ],
+      "volume": 0.6,
+      "note": "outdoor walk; rotate variants, vary volume ±10%",
+      "variants": [
+        {
+          "file": "step-snow_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-snow_1.mp3",
+          "durationSec": 0.38,
+          "trimmedSec": 0.1,
+          "gainDb": -8.4,
+          "prompt": "Single soft footstep on packed snow, small padded foot, muffled thud, a touch heavier, dry, close",
+          "source": "assets:audio/generated/sfx/single-soft-footstep-on-packed-snow-smal_a5e8e098fb.mp3"
+        },
+        {
+          "file": "step-snow_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-snow_2.mp3",
+          "durationSec": 0.34,
+          "trimmedSec": 0.14,
+          "gainDb": -12.1,
+          "prompt": "Single soft footstep on packed snow, small padded foot, muffled thud, dry, close",
+          "source": "assets:audio/generated/sfx/single-soft-footstep-on-packed-snow-smal_926b023f69.mp3"
+        },
+        {
+          "file": "step-snow_3.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-snow_3.mp3",
+          "durationSec": 0.48,
+          "trimmedSec": 0,
+          "gainDb": 18.9,
+          "prompt": "Single soft padded footstep of a small round creature on packed snow, light crunch, dry, close",
+          "source": "assets:audio/generated/sfx/single-soft-padded-footstep-of-a-small-r_4f140289b8.mp3"
+        },
+        {
+          "file": "step-snow_4.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-snow_4.mp3",
+          "durationSec": 0.48,
+          "trimmedSec": 0,
+          "gainDb": 16.2,
+          "prompt": "Single gentle footfall of a tiny creature on packed snow, soft muffled pat, dry, close",
+          "source": "assets:audio/generated/sfx/single-gentle-footfall-of-a-tiny-creatur_9220d8b886.mp3"
+        }
+      ]
+    },
+    {
+      "id": "step-rug",
+      "category": "step",
+      "triggers": [
+        "walk",
+        "stroll",
+        "approach",
+        "turn"
+      ],
+      "volume": 0.6,
+      "note": "indoors (igloo rug / floor)",
+      "variants": [
+        {
+          "file": "step-rug_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-rug_1.mp3",
+          "durationSec": 0.395,
+          "trimmedSec": 0.085,
+          "gainDb": 5.8,
+          "prompt": "Single soft padded footstep of a small penguin on a thick woolly rug, very muffled soft pat, dry, close",
+          "source": "assets:audio/generated/sfx/single-soft-padded-footstep-of-a-small-p_a6298cd264.mp3"
+        },
+        {
+          "file": "step-rug_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-rug_2.mp3",
+          "durationSec": 0.375,
+          "trimmedSec": 0.105,
+          "gainDb": -3.9,
+          "prompt": "Single soft footstep of a small padded foot on a cosy wool rug, gentle muffled thump, dry, close",
+          "source": "assets:audio/generated/sfx/single-soft-footstep-of-a-small-padded-f_cf948d3482.mp3"
+        },
+        {
+          "file": "step-rug_3.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/step-rug_3.mp3",
+          "durationSec": 0.37,
+          "trimmedSec": 0.11,
+          "gainDb": 6.5,
+          "prompt": "Single light padded footfall on a soft carpet, small round creature, muffled, dry, close",
+          "source": "assets:audio/generated/sfx/single-light-padded-footfall-on-a-soft-c_3a3e6c40ca.mp3"
+        }
+      ]
+    },
+    {
+      "id": "run-step",
+      "category": "step",
+      "triggers": [
+        "run"
+      ],
+      "volume": 0.6,
+      "variants": [
+        {
+          "file": "run-step_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/run-step_1.mp3",
+          "durationSec": 0.48,
+          "trimmedSec": 0,
+          "gainDb": 7.8,
+          "prompt": "Single quick light running footstep of a small creature on packed snow, short soft thump, dry, close",
+          "source": "assets:audio/generated/sfx/single-quick-light-running-footstep-of-a_1b71e971cb.mp3"
+        },
+        {
+          "file": "run-step_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/run-step_2.mp3",
+          "durationSec": 0.325,
+          "trimmedSec": 0.155,
+          "gainDb": -4.7,
+          "prompt": "Single quick running footstep on firm snow, small padded foot, short thump, dry, close",
+          "source": "assets:audio/generated/sfx/single-quick-running-footstep-on-firm-sn_d850153581.mp3"
+        },
+        {
+          "file": "run-step_3.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/run-step_3.mp3",
+          "durationSec": 0.465,
+          "trimmedSec": 0.015,
+          "gainDb": 18.4,
+          "prompt": "One fast light footfall on firm snow, small round creature running, short soft pat, dry, close",
+          "source": "assets:audio/generated/sfx/one-fast-light-footfall-on-firm-snow-sma_2970bcecf6.mp3"
+        }
+      ]
+    },
+    {
+      "id": "land",
+      "category": "impact",
+      "triggers": [
+        "hop",
+        "jump",
+        "dance"
+      ],
+      "volume": 0.75,
+      "note": "two-footed landing; scale volume with the drop",
+      "variants": [
+        {
+          "file": "land_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/land_1.mp3",
+          "durationSec": 0.43,
+          "trimmedSec": 0.17,
+          "gainDb": 2.3,
+          "prompt": "Single soft heavy thud of a small round creature landing with both feet on packed snow, muffled body impact, dry",
+          "source": "assets:audio/generated/sfx/single-soft-heavy-thud-of-a-small-round-_271ad30021.mp3"
+        },
+        {
+          "file": "land_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/land_2.mp3",
+          "durationSec": 0.425,
+          "trimmedSec": 0.175,
+          "gainDb": -2.2,
+          "prompt": "Small chubby penguin landing from a little hop onto snow, soft plump double-foot thump, dry, close",
+          "source": "assets:audio/generated/sfx/small-chubby-penguin-landing-from-a-litt_c0b81ec013.mp3"
+        }
+      ]
+    },
+    {
+      "id": "stomp",
+      "category": "impact",
+      "triggers": [
+        "stomp",
+        "hmph"
+      ],
+      "volume": 0.75,
+      "variants": [
+        {
+          "file": "stomp_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/stomp_1.mp3",
+          "durationSec": 0.535,
+          "trimmedSec": 0.065,
+          "gainDb": 5.2,
+          "prompt": "Single heavy angry stomp of a small creature on packed snow, deep muffled thump with a little crunch, dry",
+          "source": "assets:audio/generated/sfx/single-heavy-angry-stomp-of-a-small-crea_9cbeb5ab5e.mp3"
+        },
+        {
+          "file": "stomp_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/stomp_2.mp3",
+          "durationSec": 0.475,
+          "trimmedSec": 0.125,
+          "gainDb": -0.2,
+          "prompt": "Single grumpy stomp of a small chubby penguin foot on snow, firm muffled thump, dry, close",
+          "source": "assets:audio/generated/sfx/single-grumpy-stomp-of-a-small-chubby-pe_510218a4f4.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tumble-bump",
+      "category": "impact",
+      "triggers": [
+        "tumble",
+        "drop"
+      ],
+      "volume": 0.75,
+      "variants": [
+        {
+          "file": "tumble-bump_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/tumble-bump_1.mp3",
+          "durationSec": 0.451,
+          "trimmedSec": 0.349,
+          "gainDb": 16.2,
+          "prompt": "Small round plush body bumping down onto soft snow, padded thump with a short soft slide, cartoon-gentle, dry",
+          "source": "assets:audio/generated/sfx/small-round-plush-body-bumping-down-onto_2292c9c90f.mp3"
+        },
+        {
+          "file": "tumble-bump_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/tumble-bump_2.mp3",
+          "durationSec": 0.685,
+          "trimmedSec": 0.115,
+          "gainDb": 24,
+          "prompt": "Chubby little penguin flopping onto its tummy in soft snow, cushioned whump and a brief snow scuff, dry",
+          "source": "assets:audio/generated/sfx/chubby-little-penguin-flopping-onto-its-_697b8e0d8b.mp3"
+        }
+      ]
+    },
+    {
+      "id": "sit-plop",
+      "category": "impact",
+      "triggers": [
+        "sit"
+      ],
+      "volume": 0.75,
+      "variants": [
+        {
+          "file": "sit-plop_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/sit-plop_1.mp3",
+          "durationSec": 0.39,
+          "trimmedSec": 0.21,
+          "gainDb": 9,
+          "prompt": "Small round penguin sitting down heavily on a soft cushion, one clear plush thump, cosy, dry, close",
+          "source": "assets:audio/generated/sfx/small-round-penguin-sitting-down-heavily_d91b625dc8.mp3"
+        },
+        {
+          "file": "sit-plop_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/sit-plop_2.mp3",
+          "durationSec": 0.575,
+          "trimmedSec": 0.025,
+          "gainDb": 17.5,
+          "prompt": "Little chubby creature settling down onto a woolly rug to sit, soft padded flump, dry, close",
+          "source": "assets:audio/generated/sfx/little-chubby-creature-settling-down-ont_b96004c7ff.mp3"
+        }
+      ]
+    },
+    {
+      "id": "flipper-flap",
+      "category": "foley",
+      "triggers": [
+        "cheer",
+        "wave",
+        "woah",
+        "dance",
+        "notice"
+      ],
+      "volume": 0.6,
+      "variants": [
+        {
+          "file": "flipper-flap_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/flipper-flap_1.mp3",
+          "durationSec": 0.575,
+          "trimmedSec": 0.025,
+          "gainDb": 20.1,
+          "prompt": "Quick soft feathery flutter of small penguin flippers flapping, light airy whoosh, dry, close",
+          "source": "assets:audio/generated/sfx/quick-soft-feathery-flutter-of-small-pen_b82d08639b.mp3"
+        },
+        {
+          "file": "flipper-flap_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/flipper-flap_2.mp3",
+          "durationSec": 0.45,
+          "trimmedSec": 0.15,
+          "gainDb": 9.1,
+          "prompt": "Two quick soft flaps of little penguin flippers, gentle feathery whoosh, dry, close",
+          "source": "assets:audio/generated/sfx/two-quick-soft-flaps-of-little-penguin-f_282a6d471b.mp3"
+        }
+      ]
+    },
+    {
+      "id": "scarf-rustle",
+      "category": "foley",
+      "triggers": [
+        "scarfThrow",
+        "turn",
+        "pickUp"
+      ],
+      "volume": 0.6,
+      "variants": [
+        {
+          "file": "scarf-rustle_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/scarf-rustle_1.mp3",
+          "durationSec": 0.63,
+          "trimmedSec": 0.05,
+          "gainDb": 24,
+          "quiet": true,
+          "prompt": "Soft knitted wool scarf rustling and swishing, cosy fabric movement, dry, close",
+          "source": "assets:audio/generated/sfx/soft-knitted-wool-scarf-rustling-and-swi_3724a574ec.mp3"
+        },
+        {
+          "file": "scarf-rustle_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/scarf-rustle_2.mp3",
+          "durationSec": 0.566,
+          "trimmedSec": 0.115,
+          "gainDb": 16.6,
+          "prompt": "Thick woolly scarf flicked over a shoulder, soft fabric swish and flop, dry, close",
+          "source": "assets:audio/generated/sfx/thick-woolly-scarf-flicked-over-a-should_3b8af77d55.mp3"
+        }
+      ]
+    },
+    {
+      "id": "effort-humph",
+      "category": "vocal",
+      "triggers": [
+        "hop",
+        "jump"
+      ],
+      "volume": 0.8,
+      "note": "just before take-off",
+      "variants": [
+        {
+          "file": "effort-humph_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/effort-humph_1.mp3",
+          "durationSec": 0.48,
+          "trimmedSec": 0,
+          "gainDb": 0.1,
+          "f0Hz": 329,
+          "prompt": "Small cute creature's short effort grunt humph as it pushes off to hop, no words",
+          "source": "assets:audio/generated/sfx/small-cute-creature-s-short-effort-grunt_9c2ee1947e.mp3"
+        }
+      ]
+    },
+    {
+      "id": "strain",
+      "category": "vocal",
+      "triggers": [
+        "crouch",
+        "reach",
+        "pickUp"
+      ],
+      "volume": 0.8,
+      "variants": [
+        {
+          "file": "strain_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/strain_1.mp3",
+          "durationSec": 1.28,
+          "trimmedSec": 0,
+          "gainDb": 12.1,
+          "f0Hz": 513,
+          "prompt": "Small cute creature straining with effort while crouching low, tight squeezed nnngh strain, short, no words",
+          "source": "assets:audio/generated/sfx/small-cute-creature-straining-with-effor_0182a16db0.mp3"
+        }
+      ]
+    },
+    {
+      "id": "pant",
+      "category": "vocal",
+      "triggers": [
+        "run"
+      ],
+      "volume": 0.8,
+      "note": "after a run, as he stops",
+      "variants": [
+        {
+          "file": "pant_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/pant_1.mp3",
+          "durationSec": 1.565,
+          "trimmedSec": 0.195,
+          "gainDb": 24,
+          "f0Hz": 1002,
+          "prompt": "Small cute creature panting out of breath after running, quick soft breaths, no words",
+          "source": "assets:audio/generated/sfx/small-cute-creature-panting-out-of-breat_de1e2d0c39.mp3"
+        }
+      ]
+    },
+    {
+      "id": "hmph",
+      "category": "vocal",
+      "triggers": [
+        "hmph",
+        "stomp"
+      ],
+      "volume": 0.8,
+      "variants": [
+        {
+          "file": "hmph_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/hmph_1.mp3",
+          "durationSec": 0.581,
+          "trimmedSec": 0.1,
+          "gainDb": 13.1,
+          "f0Hz": 361,
+          "prompt": "Short indignant hmph through the nose with a closed mouth, grumpy but cute, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
+          "source": "assets:audio/generated/sfx/short-indignant-hmph-through-the-nose-wi_7cb6eb0db8.mp3"
+        },
+        {
+          "file": "hmph_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/hmph_2.mp3",
+          "durationSec": 0.451,
+          "trimmedSec": 0.229,
+          "gainDb": -1.7,
+          "f0Hz": 263,
+          "prompt": "Little offended nose huff, a short pouty hmph, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
+          "source": "assets:audio/generated/sfx/little-offended-nose-huff-a-short-pouty-_1a80fa3ada.mp3"
+        }
+      ]
+    },
+    {
+      "id": "content-sigh",
+      "category": "vocal",
+      "triggers": [
+        "sit",
+        "sip"
+      ],
+      "volume": 0.8,
+      "note": "his signature: little moments of contentment",
+      "variants": [
+        {
+          "file": "content-sigh_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/content-sigh_1.mp3",
+          "durationSec": 1.071,
+          "trimmedSec": 0.289,
+          "gainDb": 6.7,
+          "f0Hz": 306,
+          "prompt": "Soft contented sigh, a relaxed happy mmm exhale, sleepy and cosy, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
+          "source": "assets:audio/generated/sfx/soft-contented-sigh-a-relaxed-happy-mmm-_fe0b1635d8.mp3"
+        },
+        {
+          "file": "content-sigh_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/content-sigh_2.mp3",
+          "durationSec": 1.051,
+          "trimmedSec": 0.309,
+          "gainDb": 21.2,
+          "f0Hz": 298,
+          "prompt": "Long gentle sigh of relief and comfort settling in, warm and sleepy, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
+          "source": "assets:audio/generated/sfx/long-gentle-sigh-of-relief-and-comfort-s_e6abf40e68.mp3"
+        }
+      ]
+    },
+    {
+      "id": "sip",
+      "category": "foley",
+      "triggers": [
+        "sip"
+      ],
+      "volume": 0.6,
+      "note": "at the beak meeting the rim",
+      "variants": [
+        {
+          "file": "sip_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/sip_1.mp3",
+          "durationSec": 0.79,
+          "trimmedSec": 0.09,
+          "gainDb": 24,
+          "prompt": "Tiny gentle slurp of hot cocoa from a mug, a small polite sip, soft and close, no words",
+          "source": "assets:audio/generated/sfx/tiny-gentle-slurp-of-hot-cocoa-from-a-mu_aae7803b0e.mp3"
+        },
+        {
+          "file": "sip_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/sip_2.mp3",
+          "durationSec": 0.815,
+          "trimmedSec": 0.065,
+          "gainDb": 24,
+          "prompt": "Small soft sip of a warm drink from a cup, quiet little slurp, close, no words",
+          "source": "assets:audio/generated/sfx/small-soft-sip-of-a-warm-drink-from-a-cu_804657d12c.mp3"
+        }
+      ]
+    },
+    {
+      "id": "ahh",
+      "category": "vocal",
+      "triggers": [
+        "sip"
+      ],
+      "volume": 0.8,
+      "note": "after the gulp",
+      "variants": [
+        {
+          "file": "ahh_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/ahh_1.mp3",
+          "durationSec": 0.98,
+          "trimmedSec": 0.02,
+          "gainDb": 23.5,
+          "prompt": "Soft satisfied little ahh after a warm drink, mellow and cosy, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
+          "source": "assets:audio/generated/sfx/soft-satisfied-little-ahh-after-a-warm-d_b2b2d205c2.mp3"
+        }
+      ]
+    },
+    {
+      "id": "gasp",
+      "category": "vocal",
+      "triggers": [
+        "notice",
+        "woah"
+      ],
+      "volume": 0.8,
+      "note": "woah: on the snap; notice: on the start",
+      "variants": [
+        {
+          "file": "gasp_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/gasp_1.mp3",
+          "durationSec": 0.515,
+          "trimmedSec": 0.085,
+          "gainDb": 18.5,
+          "f0Hz": 501,
+          "prompt": "Soft short surprised gasp, a quick breathy intake, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
+          "source": "assets:audio/generated/sfx/soft-short-surprised-gasp-a-quick-breath_0e1a8641e9.mp3"
+        },
+        {
+          "file": "gasp_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/gasp_2.mp3",
+          "durationSec": 0.565,
+          "trimmedSec": 0.035,
+          "gainDb": 14.9,
+          "f0Hz": 479,
+          "prompt": "Little startled gasp with a tiny squeak in it, breathy, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
+          "source": "assets:audio/generated/sfx/little-startled-gasp-with-a-tiny-squeak-_33fc2739e1.mp3"
+        }
+      ]
+    },
+    {
+      "id": "ooh",
+      "category": "vocal",
+      "triggers": [
+        "woah",
+        "lookUp"
+      ],
+      "volume": 0.8,
+      "note": "wonder, after the snap",
+      "variants": [
+        {
+          "file": "ooh_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/ooh_1.mp3",
+          "durationSec": 1.106,
+          "trimmedSec": 0.254,
+          "gainDb": 10.6,
+          "f0Hz": 315,
+          "prompt": "Soft amazed ooh of wonder, breathy and awed, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
+          "source": "assets:audio/generated/sfx/soft-amazed-ooh-of-wonder-breathy-and-aw_f6e31be5f5.mp3"
+        },
+        {
+          "file": "ooh_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/ooh_2.mp3",
+          "durationSec": 1.131,
+          "trimmedSec": 0.229,
+          "gainDb": 15.1,
+          "f0Hz": 374,
+          "prompt": "Slow quiet wow-like ooh, gentle amazement, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
+          "source": "assets:audio/generated/sfx/slow-quiet-wow-like-ooh-gentle-amazement_0f37ca65e6.mp3"
+        }
+      ]
+    },
+    {
+      "id": "chuckle",
+      "category": "vocal",
+      "triggers": [
+        "cheer",
+        "wink",
+        "dance",
+        "wave"
+      ],
+      "volume": 0.8,
+      "variants": [
+        {
+          "file": "chuckle_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/chuckle_1.mp3",
+          "durationSec": 0.855,
+          "trimmedSec": 0.145,
+          "gainDb": 3.4,
+          "f0Hz": 479,
+          "prompt": "Soft gentle chuckle, a shy closed-mouth happy giggle, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
+          "source": "assets:audio/generated/sfx/soft-gentle-chuckle-a-shy-closed-mouth-h_f6c30f581c.mp3"
+        },
+        {
+          "file": "chuckle_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/chuckle_2.mp3",
+          "durationSec": 0.845,
+          "trimmedSec": 0.155,
+          "gainDb": 17.8,
+          "f0Hz": 298,
+          "prompt": "Small warm happy laugh, two or three soft hehs, bashful, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
+          "source": "assets:audio/generated/sfx/small-warm-happy-laugh-two-or-three-soft_5d84f05258.mp3"
+        }
+      ]
+    },
+    {
+      "id": "hmm",
+      "category": "vocal",
+      "triggers": [
+        "think",
+        "peer",
+        "shrug",
+        "glance"
+      ],
+      "volume": 0.8,
+      "variants": [
+        {
+          "file": "hmm_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/hmm_1.mp3",
+          "durationSec": 0.86,
+          "trimmedSec": 0.14,
+          "gainDb": 14.2,
+          "f0Hz": 253,
+          "prompt": "Soft thoughtful hmm hum with a closed mouth, low and curious, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
+          "source": "assets:audio/generated/sfx/soft-thoughtful-hmm-hum-with-a-closed-mo_3c1bd973af.mp3"
+        }
+      ]
+    },
+    {
+      "id": "hup",
+      "category": "vocal",
+      "triggers": [
+        "pickUp",
+        "sit"
+      ],
+      "volume": 0.8,
+      "note": "small effort: bending to pick something up, or standing up from sitting",
+      "variants": [
+        {
+          "file": "hup_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/hup_1.mp3",
+          "durationSec": 0.41,
+          "trimmedSec": 0.07,
+          "gainDb": 19.2,
+          "prompt": "Tiny soft effort hup, a short light push of breath, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
+          "source": "assets:audio/generated/sfx/tiny-soft-effort-hup-a-short-light-push-_68c95fb172.mp3"
+        },
+        {
+          "file": "hup_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/hup_2.mp3",
+          "durationSec": 0.345,
+          "trimmedSec": 0.135,
+          "gainDb": 16.6,
+          "f0Hz": 302,
+          "prompt": "Short clear hup! of effort as it stands up from sitting, a soft little grunt, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
+          "source": "assets:audio/generated/sfx/short-clear-hup-of-effort-as-it-stands-u_5a96e5081f.mp3"
+        }
+      ]
+    },
+    {
+      "id": "oh",
+      "category": "vocal",
+      "triggers": [
+        "notice"
+      ],
+      "volume": 0.8,
+      "note": "startled: a small surprised oh",
+      "variants": [
+        {
+          "file": "oh_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/oh_1.mp3",
+          "durationSec": 0.5,
+          "trimmedSec": 0.1,
+          "gainDb": 9.7,
+          "f0Hz": 424,
+          "prompt": "Small startled oh!, a short surprised vocal yelp-gasp, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
+          "source": "assets:audio/generated/sfx/small-startled-oh-a-short-surprised-voca_9e40bb2017.mp3"
+        },
+        {
+          "file": "oh_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/oh_2.mp3",
+          "durationSec": 0.47,
+          "trimmedSec": 0.13,
+          "gainDb": 4.3,
+          "f0Hz": 334,
+          "prompt": "Little surprised oh with a breathy jump in it, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
+          "source": "assets:audio/generated/sfx/little-surprised-oh-with-a-breathy-jump-_48f7bcb6ac.mp3"
+        }
+      ]
+    },
+    {
+      "id": "mm-hm",
+      "category": "vocal",
+      "triggers": [
+        "nod"
+      ],
+      "volume": 0.8,
+      "note": "one per nod: a slow, serious agreeing hum",
+      "variants": [
+        {
+          "file": "mm-hm_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/mm-hm_1.mp3",
+          "durationSec": 0.745,
+          "trimmedSec": 0.135,
+          "gainDb": 9.6,
+          "f0Hz": 237,
+          "prompt": "Thoughtful agreeing mm-hm hum with a closed mouth, slow and serious, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
+          "source": "assets:audio/generated/sfx/thoughtful-agreeing-mm-hm-hum-with-a-clo_b28202b39d.mp3"
+        },
+        {
+          "file": "mm-hm_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/mm-hm_2.mp3",
+          "durationSec": 0.79,
+          "trimmedSec": 0.09,
+          "gainDb": 8.1,
+          "f0Hz": 259,
+          "prompt": "Slow considered mm-hmm of agreement, two soft closed-mouth hums, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
+          "source": "assets:audio/generated/sfx/slow-considered-mm-hmm-of-agreement-two-_edc7b67880.mp3"
+        }
+      ]
+    },
+    {
+      "id": "content-hmm",
+      "category": "vocal",
+      "triggers": [
+        "sit"
+      ],
+      "volume": 0.8,
+      "note": "settling in somewhere cosy",
+      "variants": [
+        {
+          "file": "content-hmm_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/content-hmm_1.mp3",
+          "durationSec": 0.576,
+          "trimmedSec": 0.304,
+          "gainDb": 14,
+          "f0Hz": 302,
+          "prompt": "Contented little hmm as it settles in, warm closed-mouth hum, cosy, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
+          "source": "assets:audio/generated/sfx/contented-little-hmm-as-it-settles-in-wa_d8dc0519a0.mp3"
+        }
+      ]
+    },
+    {
+      "id": "woah",
+      "category": "vocal",
+      "triggers": [
+        "woah"
+      ],
+      "volume": 0.8,
+      "note": "on the snap",
+      "variants": [
+        {
+          "file": "woah_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/woah_1.mp3",
+          "durationSec": 0.8,
+          "trimmedSec": 0,
+          "gainDb": -0.8,
+          "f0Hz": 408,
+          "prompt": "Startled amazed whoa! exclamation, a breathy sudden wah, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
+          "source": "assets:audio/generated/sfx/startled-amazed-whoa-exclamation-a-breat_912f9616b8.mp3"
+        },
+        {
+          "file": "woah_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/woah_2.mp3",
+          "durationSec": 0.65,
+          "trimmedSec": 0.15,
+          "gainDb": 12.9,
+          "f0Hz": 334,
+          "prompt": "Sudden wide-eyed woah, a short amazed vocal burst, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
+          "source": "assets:audio/generated/sfx/sudden-wide-eyed-woah-a-short-amazed-voc_16a3579d1b.mp3"
+        }
+      ]
+    },
+    {
+      "id": "yawn",
+      "category": "vocal",
+      "triggers": [],
+      "volume": 0.8,
+      "note": "sleepy idle (no action yet)",
+      "variants": [
+        {
+          "file": "yawn_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/yawn_1.mp3",
+          "durationSec": 1.76,
+          "trimmedSec": 0,
+          "gainDb": 24,
+          "f0Hz": 1470,
+          "quiet": true,
+          "prompt": "Soft sleepy little yawn, slow and cosy, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
+          "source": "assets:audio/generated/sfx/soft-sleepy-little-yawn-slow-and-cosy-a-_01b47493d5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "sneeze",
+      "category": "vocal",
+      "triggers": [
+        "sneeze"
+      ],
+      "volume": 0.8,
+      "note": "build then choo: align the choo with the snap",
+      "variants": [
+        {
+          "file": "sneeze_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/sneeze_1.mp3",
+          "durationSec": 1.36,
+          "trimmedSec": 0,
+          "gainDb": 2.1,
+          "prompt": "Tiny cute sneeze of a small chubby penguin: a breathy ah... ah... then a soft squeaky choo, no words",
+          "source": "assets:audio/generated/sfx/tiny-cute-sneeze-of-a-small-chubby-pengu_7a4a08137e.mp3"
+        },
+        {
+          "file": "sneeze_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/sneeze_2.mp3",
+          "durationSec": 0.707,
+          "trimmedSec": 0.653,
+          "gainDb": 0.4,
+          "prompt": "Small adorable sneeze, two quick soft breath catches then a little high soft achoo, no words",
+          "source": "assets:audio/generated/sfx/small-adorable-sneeze-two-quick-soft-bre_bc62654790.mp3"
+        }
+      ]
+    },
+    {
+      "id": "huff-breath",
+      "category": "fx",
+      "triggers": [
+        "huff"
+      ],
+      "volume": 0.7,
+      "variants": [
+        {
+          "file": "huff-breath_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/huff-breath_1.mp3",
+          "durationSec": 0.87,
+          "trimmedSec": 0.01,
+          "gainDb": 24,
+          "prompt": "Soft airy breath exhale, gentle whoosh of warm air against glass, no voice, no vocal sound",
+          "source": "assets:audio/generated/sfx/soft-airy-breath-exhale-gentle-whoosh-of_68ddf9a897.mp3"
+        }
+      ]
+    },
+    {
+      "id": "nose-puff",
+      "category": "fx",
+      "triggers": [
+        "sneeze"
+      ],
+      "volume": 0.7,
+      "variants": [
+        {
+          "file": "nose-puff_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/nose-puff_1.mp3",
+          "durationSec": 0.38,
+          "trimmedSec": 0.1,
+          "gainDb": 6.4,
+          "prompt": "Very short soft puff of air, tiny nose exhale, no voice, no vocal sound",
+          "source": "assets:audio/generated/sfx/very-short-soft-puff-of-air-tiny-nose-ex_997fe2b233.mp3"
+        }
+      ]
+    },
+    {
+      "id": "dazed",
+      "category": "fx",
+      "triggers": [
+        "tumble",
+        "drop",
+        "sneeze"
+      ],
+      "volume": 0.7,
+      "variants": [
+        {
+          "file": "dazed_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/dazed_1.mp3",
+          "durationSec": 2,
+          "trimmedSec": 0,
+          "gainDb": 7.7,
+          "prompt": "Dizzy dazed sound after a fall: a clear soft wobbling twinkle of little stars circling, gentle bell tones swirling, audible and present",
+          "source": "assets:audio/generated/sfx/dizzy-dazed-sound-after-a-fall-a-clear-s_535ef294aa.mp3"
+        }
+      ]
+    },
+    {
+      "id": "twinkle",
+      "category": "fx",
+      "triggers": [
+        "wink",
+        "woah"
+      ],
+      "volume": 0.7,
+      "variants": [
+        {
+          "file": "twinkle_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/twinkle_1.mp3",
+          "durationSec": 1,
+          "trimmedSec": 0,
+          "gainDb": 24,
+          "quiet": true,
+          "prompt": "Sparkly cute ting chime, a little wink sparkle",
+          "source": "assets:audio/generated/sfx/sparkly-cute-ting-chime-a-little-wink-sp_cf71536a12.mp3"
+        }
+      ]
+    },
+    {
+      "id": "mug-set",
+      "category": "foley",
+      "triggers": [
+        "putDown"
+      ],
+      "volume": 0.6,
+      "note": "at the touch (PUT_TOUCH)",
+      "variants": [
+        {
+          "file": "mug-set_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/mug-set_1.mp3",
+          "durationSec": 0.515,
+          "trimmedSec": 0.085,
+          "gainDb": 24,
+          "quiet": true,
+          "prompt": "Ceramic mug set down gently on a soft rug over wood, soft muted clunk, dry, close",
+          "source": "assets:audio/generated/sfx/ceramic-mug-set-down-gently-on-a-soft-ru_c0e20ea4e0.mp3"
+        }
+      ]
+    },
+    {
+      "id": "mug-lift",
+      "category": "foley",
+      "triggers": [
+        "pickUp"
+      ],
+      "volume": 0.6,
+      "note": "at the grab",
+      "variants": [
+        {
+          "file": "mug-lift_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/mug-lift_1.mp3",
+          "durationSec": 0.465,
+          "trimmedSec": 0.015,
+          "gainDb": 24,
+          "quiet": true,
+          "prompt": "Ceramic mug lifted off the floor, faint soft ceramic tick and a little liquid slosh, dry, close",
+          "source": "assets:audio/generated/sfx/ceramic-mug-lifted-off-the-floor-faint-s_021b34734b.mp3"
+        }
+      ]
+    }
+  ]
+}

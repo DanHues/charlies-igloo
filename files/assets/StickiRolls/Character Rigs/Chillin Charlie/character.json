@@ -1,0 +1,333 @@
+{
+  "manifestVersion": 1,
+  "id": "stickirolls-chillin-charlie",
+  "name": "Chillin' Charlie",
+  "status": "partial",
+  "notes": "Front-view 2D cutout prototype. Primary style: original canonical art. Front only; no side/back rig, lip sync or volumetric 3D mesh. All registered textures are 1024x1024; do not trim. Anatomy left means character left / screen-right. The 2D cutout parts are off-model (separate head on a narrow torso); the accurate full-turnaround model is `model3d` (procedural, built to the reference sheet), rendered by Three.js scenes via stage3d model kind \"character\". Design authority: the banded front/side/back turnaround (hard 3-tone blue bands, W cheeks, sketch strokes) supplied 2026-11-05.",
+  "reference": [
+    "reference/canonical/original-balloon-friends.png",
+    "reference/canonical/original-igloo.png",
+    "reference/canonical/original-skiing.png",
+    "reference/chillin-charlie-character-reference.png",
+    "reference/turnarounds/charlie-back.png",
+    "reference/turnarounds/charlie-front.png",
+    "reference/turnarounds/charlie-side-left.png",
+    "../../Stories/Official/charlie-and-axie/reference/artwork/0384-SR3_Laser-Engraved_Sapphire_Charlie_and_Axie-scaled-wp14565.webp",
+    "../../Stories/Official/charlie-and-axie/reference/artwork/axie-and-charlie-s3-wp14483.webp",
+    "../../Stories/Official/charlie-and-axie/reference/artwork/AXie-charlie-easter-1-wp16216.webp",
+    "../../Stories/Official/charlie-and-axie/reference/artwork/SR0384-Chillin-Charlie-Happy-Axie-Together-HR-scaled-wp17042.webp",
+    "../../Stories/Official/charlie-and-axie/reference/artwork/SR0384-Chillin-Charlie-Happy-Axie-Together-scaled-wp14332.jpg",
+    "../../Stories/Official/charlie-and-axie/reference/artwork/SR3_Laser_Engraved_Chillin-Charlie-and-Happy-Axie-wp14602.webp",
+    "reference/official/artwork/Campin-Charlie-SEAS-wp4609.webp",
+    "reference/official/artwork/CHARLIE-BUBBLES-GOLD-wp15173.webp",
+    "reference/official/artwork/CHARLIE-BUBBLES-wp15166.webp",
+    "reference/official/artwork/Chillin-Charlie-Life-wp3155.webp",
+    "reference/official/artwork/Chillin-Charlie-SEAS-wp2776.webp",
+    "reference/official/artwork/Chillin-Charlie-Titanium-wp3418.webp",
+    "reference/official/artwork/Nightime-Charlie-SEAS-wp4601.webp",
+    "reference/official/artwork/SR0083-Chillin-Charlie-wp2777.webp",
+    "reference/official/artwork/SR0180-Chillin-Charlie-Life-1-wp3156.webp",
+    "reference/official/artwork/SR0245-Chillin-Charlie-Limited-Edition-01-1-wp3419.webp",
+    "reference/official/artwork/SR0290-Charlie-Chopsticks_Artboard-1-scaled-wp13851.webp",
+    "reference/official/artwork/SR0290-Charlie-Chopsticks-HR-scaled-wp16862.webp",
+    "reference/official/artwork/SR0373-Charlie-Bubbles-01-scaled-wp14015.webp",
+    "reference/official/artwork/SR0373-Charlie-Bubbles-HR-scaled-wp16713.webp",
+    "reference/official/artwork/SR0373-Charlie-Bubbles-HR-scaled-wp17072.webp",
+    "reference/official/artwork/SR0382-Charlie-Bubbles-HR-1-scaled-wp17047.webp",
+    "reference/official/artwork/SR0382-Charlie-Bubbles-HR-scaled-wp14563.webp",
+    "reference/official/artwork/SR0382-Charlie-Bubbles-HR-scaled-wp16700.webp",
+    "reference/official/artwork/SR3_Seas_Charlie-Chopsticks-wp14601.webp",
+    "reference/official/artwork/SR3_Sticki_Mates_Exclusive_Charlie-Bubbles-wp14600.webp",
+    "reference/official/lore-panels/Character-Lore-Chillin-Charlie-01-scaled-wp16740.webp",
+    "reference/official/lore-panels/Character-Lore-Chillin-Charlie-02-scaled-wp16739.webp",
+    "reference/official/lore-panels/Character-Lore-Chillin-Charlie-03-scaled-wp16738.webp",
+    "reference/official/lore-panels/Character-Lore-Chillin-Charlie-04-scaled-wp16737.webp",
+    "reference/official/lore-panels/Character-Lore-Chillin-Charlie-05-scaled-wp16736.webp",
+    "reference/official/lore-panels/Character-Lore-Chillin-Charlie-06-scaled-wp16735.webp",
+    "reference/official/lore-panels/Character-Lore-Chillin-Charlie-07-scaled-wp16734.webp",
+    "reference/official/lore-panels/Character-Lore-Chillin-Charlie-08-scaled-wp16733.webp",
+    "reference/official/lore-panels/SR0373-Charlie-Bubbles-HR-wp17072.png",
+    "reference/official/lore-panels/SR0382-Charlie-Bubbles-HR-1-wp17047.png",
+    "../../Stories/Official/charlie-and-axie/reference/lore-panels/SR0384-Chillin-Charlie-Happy-Axie-Together-HR-wp17042.png",
+    "reference/official/lore-panels/SR0290-Charlie-Chopsticks-HR-wp16862.png",
+    "reference/official/lore-panels/Character-Lore-Chillin-Charlie-01-wp16740.png",
+    "reference/official/lore-panels/Character-Lore-Chillin-Charlie-02-wp16739.png",
+    "reference/official/lore-panels/Character-Lore-Chillin-Charlie-03-wp16738.png",
+    "reference/official/lore-panels/Character-Lore-Chillin-Charlie-04-wp16737.png",
+    "reference/official/lore-panels/Character-Lore-Chillin-Charlie-06-wp16735.png",
+    "reference/official/lore-panels/Character-Lore-Chillin-Charlie-05-wp16736.png",
+    "reference/official/lore-panels/Character-Lore-Chillin-Charlie-08-wp16733.png",
+    "reference/official/lore-panels/Character-Lore-Chillin-Charlie-07-wp16734.png",
+    "reference/official/lore-panels/SR0373-Charlie-Bubbles-HR-wp16713.png",
+    "reference/official/lore-panels/SR0382-Charlie-Bubbles-HR-wp16700.png",
+    "reference/official/lore-panels/SR0382-Charlie-Bubbles-HR-wp14563.png"
+  ],
+  "canvas": {
+    "width": 1024,
+    "height": 1024
+  },
+  "anchor": [
+    512,
+    948
+  ],
+  "parts": [
+    {
+      "id": "torso",
+      "file": "parts/torso.png",
+      "parent": null,
+      "pivot": [
+        512,
+        720
+      ],
+      "z": 5
+    },
+    {
+      "id": "legR",
+      "file": "parts/foot.png",
+      "parent": "torso",
+      "pivot": [
+        424,
+        872
+      ],
+      "z": 1
+    },
+    {
+      "id": "legL",
+      "file": "parts/foot-left.png",
+      "parent": "torso",
+      "pivot": [
+        600,
+        872
+      ],
+      "z": 1
+    },
+    {
+      "id": "armR",
+      "file": "parts/flipper.png",
+      "parent": "torso",
+      "pivot": [
+        360,
+        622
+      ],
+      "z": 4
+    },
+    {
+      "id": "armL",
+      "file": "parts/flipper-left.png",
+      "parent": "torso",
+      "pivot": [
+        664,
+        622
+      ],
+      "z": 4
+    },
+    {
+      "id": "head",
+      "file": "parts/head.png",
+      "parent": "torso",
+      "pivot": [
+        512,
+        555
+      ],
+      "z": 10
+    },
+    {
+      "id": "beak",
+      "file": "parts/beak.png",
+      "parent": "head",
+      "pivot": [
+        512,
+        448
+      ],
+      "z": 12
+    },
+    {
+      "id": "eyes",
+      "parent": "head",
+      "pivot": [
+        512,
+        380
+      ],
+      "z": 12,
+      "default": "open",
+      "variants": {
+        "open": "parts/eyes-open.png",
+        "happy": "parts/eyes-happy.png",
+        "sleepy": "parts/eyes-sleepy.png",
+        "closed": "parts/eyes-sleepy.png"
+      }
+    },
+    {
+      "id": "scarfTail",
+      "file": "accessories/scarf-tail.png",
+      "parent": "torso",
+      "pivot": [
+        580,
+        610
+      ],
+      "z": 11,
+      "enabled": false,
+      "drag": 1.2
+    },
+    {
+      "id": "scarf",
+      "file": "accessories/scarf-collar.png",
+      "parent": "torso",
+      "pivot": [
+        512,
+        575
+      ],
+      "z": 13,
+      "enabled": false
+    },
+    {
+      "id": "earmuffs",
+      "file": "accessories/earmuffs.png",
+      "parent": "head",
+      "pivot": [
+        512,
+        330
+      ],
+      "z": 14,
+      "enabled": false
+    }
+  ],
+  "rig": {
+    "root": "torso",
+    "body": "torso",
+    "head": "head",
+    "armL": "armL",
+    "armR": "armR",
+    "legL": "legL",
+    "legR": "legR",
+    "eyes": "eyes"
+  },
+  "expressions": {
+    "neutral": {
+      "eyes": "open"
+    },
+    "happy": {
+      "eyes": "happy"
+    },
+    "sleepy": {
+      "eyes": "sleepy"
+    }
+  },
+  "poses": {
+    "idle": {
+      "rot": {
+        "armR": 0,
+        "armL": 0
+      }
+    },
+    "wave": {
+      "rot": {
+        "armR": 100,
+        "armL": 0
+      }
+    },
+    "cheer": {
+      "rot": {
+        "armR": 85,
+        "armL": -85
+      }
+    },
+    "flippersOut": {
+      "rot": {
+        "armR": 28,
+        "armL": -28
+      }
+    },
+    "shy": {
+      "rot": {
+        "armR": -12,
+        "armL": 12,
+        "head": 6
+      }
+    }
+  },
+  "views": {
+    "front": "ready",
+    "threeQuarter": "ready",
+    "side": "ready",
+    "back": "ready"
+  },
+  "controls": [
+    "blink",
+    "earmuffsToggle",
+    "eyes",
+    "flipperRotation",
+    "footRotation",
+    "headTilt",
+    "scarfDrag",
+    "scarfToggle",
+    "waddle",
+    "walk"
+  ],
+  "registration": {
+    "origin": "top-left",
+    "units": "pixels",
+    "partCoordinates": "global rest-canvas",
+    "overlap": "Head overlaps torso; limb shoulders hide beneath torso. Apply parent transforms to descendants."
+  },
+  "gait": {
+    "style": "waddle",
+    "cycle": 24,
+    "rock": 6,
+    "lift": 16,
+    "legSwing": 10,
+    "armSwing": 14,
+    "bob": 5,
+    "lean": 2,
+    "footSpread": 88,
+    "lookAhead": 14
+  },
+  "model3d": {
+    "builder": "penguin",
+    "bands": "texture",
+    "colors": {
+      "body": "#8fa6e4",
+      "bodyLight": "#a5d3f3",
+      "shade": "#7c89d4",
+      "sketch": "#4d6bc3",
+      "cream": "#fbf3e6",
+      "creamShade": "#ecdccd",
+      "beak": "#f9a53c",
+      "beakShade": "#e8862a",
+      "beakOutline": "#c94f19",
+      "cheek": "#f9c4d3",
+      "cheekMark": "#ec5b8d",
+      "eye": "#6b2d22",
+      "feet": "#b85b45",
+      "feetShade": "#94432f",
+      "outline": "#7d3c2d",
+      "scarf": "#f0525a",
+      "scarfOutline": "#8c2f2a",
+      "scarfAlt": "#fcf4e6",
+      "earmuffs": "#ff8a3d"
+    },
+    "proportions": {
+      "footSpread": 0.32,
+      "footForward": -0.04,
+      "outline": 11
+    },
+    "gait": {
+      "stepLength": 0.28,
+      "bob": 0.03,
+      "sway": 0.075,
+      "roll": 9,
+      "lift": 0.06,
+      "lean": 5,
+      "inertia": 8,
+      "walkYaw": 80,
+      "turnFrames": 10,
+      "settleFrames": 10,
+      "accelFrames": 10,
+      "flipperFlare": 26,
+      "twist": 7,
+      "squash": 0.04,
+      "headBounce": 0.008,
+      "scarfFollow": 1
+    }
+  }
+}
