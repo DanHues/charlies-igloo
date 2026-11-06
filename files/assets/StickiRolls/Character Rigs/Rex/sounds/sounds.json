@@ -1,0 +1,1029 @@
+{
+  "character": "stickirolls-rex",
+  "voice": "a small eager baby dinosaur boy, bright curious energetic voice, mid-pitched and a little husky, bouncy and enthusiastic, cute, no words, no speech",
+  "feet": "chunky stumpy padded dino feet, soft solid stomps; heavier than Axie, bouncier than Charlie",
+  "levels": {
+    "note": "Every clip is levelled per category (RMS dBFS of its sounding part) and trimmed to its onset, so a clip plays on its cue frame. Use `volume` as the track volume.",
+    "target": {
+      "step": -27,
+      "impact": -23,
+      "foley": -25,
+      "vocal": -21,
+      "fx": -24
+    }
+  },
+  "generator": "Animation Suite: npx tsx scripts/make-sound-library.ts (ElevenLabs eleven_text_to_sound_v3)",
+  "sounds": [
+    {
+      "id": "step-grass",
+      "category": "step",
+      "triggers": [
+        "walk",
+        "stroll",
+        "approach",
+        "turn"
+      ],
+      "volume": 0.6,
+      "note": "outdoor walk on grass / earth; rotate variants, vary volume ±10%",
+      "variants": [
+        {
+          "file": "step-grass_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/step-grass_1.mp3",
+          "durationSec": 0.36,
+          "trimmedSec": 0.12,
+          "gainDb": 1.7,
+          "prompt": "Single soft padded footstep of a small chubby dinosaur on short grass, light thud with a faint grass rustle, dry, close",
+          "source": "assets:audio/generated/sfx/single-soft-padded-footstep-of-a-small-c_96558d1a15.mp3"
+        },
+        {
+          "file": "step-grass_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/step-grass_2.mp3",
+          "durationSec": 0.48,
+          "trimmedSec": 0,
+          "gainDb": -10,
+          "prompt": "One soft stompy footstep of a little chunky creature on a grassy path, muffled thump, dry, close",
+          "source": "assets:audio/generated/sfx/one-soft-stompy-footstep-of-a-little-chu_aabc878f7d.mp3"
+        },
+        {
+          "file": "step-grass_3.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/step-grass_3.mp3",
+          "durationSec": 0.325,
+          "trimmedSec": 0.155,
+          "gainDb": -10.4,
+          "prompt": "Single light padded footfall on soft earth and grass, small round creature, gentle thud, dry, close",
+          "source": "assets:audio/generated/sfx/single-light-padded-footfall-on-soft-ear_bb4c6db199.mp3"
+        },
+        {
+          "file": "step-grass_4.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/step-grass_4.mp3",
+          "durationSec": 0.345,
+          "trimmedSec": 0.135,
+          "gainDb": 2.5,
+          "prompt": "Single bouncy little footstep on a grassy hill, small chubby foot, soft thump and tiny rustle, dry, close",
+          "source": "assets:audio/generated/sfx/single-bouncy-little-footstep-on-a-grass_02208bf693.mp3"
+        }
+      ]
+    },
+    {
+      "id": "step-snow",
+      "category": "step",
+      "triggers": [
+        "walk",
+        "stroll",
+        "approach",
+        "turn"
+      ],
+      "volume": 0.6,
+      "note": "snowy sets (Frosty Island)",
+      "variants": [
+        {
+          "file": "step-snow_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/step-snow_1.mp3",
+          "durationSec": 0.48,
+          "trimmedSec": 0,
+          "gainDb": -8.7,
+          "prompt": "Single soft stompy footstep of a small chubby dinosaur on packed snow, padded thud with a light crunch, dry, close",
+          "source": "assets:audio/generated/sfx/single-soft-stompy-footstep-of-a-small-c_7c5324af4d.mp3"
+        },
+        {
+          "file": "step-snow_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/step-snow_2.mp3",
+          "durationSec": 0.48,
+          "trimmedSec": 0,
+          "gainDb": 9.6,
+          "prompt": "One small padded footstep pressing into fresh snow, chunky little foot, soft crunch, dry, close",
+          "source": "assets:audio/generated/sfx/one-small-padded-footstep-pressing-into-_96fb84fb95.mp3"
+        },
+        {
+          "file": "step-snow_3.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/step-snow_3.mp3",
+          "durationSec": 0.48,
+          "trimmedSec": 0,
+          "gainDb": 0.4,
+          "prompt": "Single light stompy footfall of a small round creature on firm snow, muffled thump, dry, close",
+          "source": "assets:audio/generated/sfx/single-light-stompy-footfall-of-a-small-_50a9179c04.mp3"
+        }
+      ]
+    },
+    {
+      "id": "run-step",
+      "category": "step",
+      "triggers": [
+        "run"
+      ],
+      "volume": 0.6,
+      "variants": [
+        {
+          "file": "run-step_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/run-step_1.mp3",
+          "durationSec": 0.4,
+          "trimmedSec": 0.08,
+          "gainDb": -3,
+          "prompt": "Single quick eager running footstep of a small chubby dinosaur on grass, short padded thump, dry, close",
+          "source": "assets:audio/generated/sfx/single-quick-eager-running-footstep-of-a_18bba57d6d.mp3"
+        },
+        {
+          "file": "run-step_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/run-step_2.mp3",
+          "durationSec": 0.35,
+          "trimmedSec": 0.13,
+          "gainDb": 3.8,
+          "prompt": "One fast stompy little footfall on firm ground, small creature dashing, short soft thud, dry, close",
+          "source": "assets:audio/generated/sfx/one-fast-stompy-little-footfall-on-firm-_b1de2cdb40.mp3"
+        },
+        {
+          "file": "run-step_3.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/run-step_3.mp3",
+          "durationSec": 0.48,
+          "trimmedSec": 0,
+          "gainDb": 1.3,
+          "prompt": "Single quick bouncy running step on a grassy path, small padded foot, short thump, dry, close",
+          "source": "assets:audio/generated/sfx/single-quick-bouncy-running-step-on-a-gr_2f77578a6d.mp3"
+        }
+      ]
+    },
+    {
+      "id": "land",
+      "category": "impact",
+      "triggers": [
+        "hop",
+        "jump",
+        "dance"
+      ],
+      "volume": 0.75,
+      "note": "two-footed landing; scale volume with the drop",
+      "variants": [
+        {
+          "file": "land_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/land_1.mp3",
+          "durationSec": 0.6,
+          "trimmedSec": 0,
+          "gainDb": 15.6,
+          "prompt": "Small chubby dinosaur landing with both feet on grassy ground, solid soft padded thump with a little bounce, dry, close",
+          "source": "assets:audio/generated/sfx/small-chubby-dinosaur-landing-with-both-_0208cc15d7.mp3"
+        },
+        {
+          "file": "land_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/land_2.mp3",
+          "durationSec": 0.6,
+          "trimmedSec": 0,
+          "gainDb": 3.5,
+          "prompt": "Little round creature landing from an excited hop, plump double-foot stomp on earth, dry, close",
+          "source": "assets:audio/generated/sfx/little-round-creature-landing-from-an-ex_60a0424157.mp3"
+        }
+      ]
+    },
+    {
+      "id": "stomp",
+      "category": "impact",
+      "triggers": [
+        "stomp",
+        "hmph"
+      ],
+      "volume": 0.75,
+      "variants": [
+        {
+          "file": "stomp_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/stomp_1.mp3",
+          "durationSec": 0.6,
+          "trimmedSec": 0,
+          "gainDb": 4.3,
+          "prompt": "Single big determined stomp of a small chubby dinosaur foot on the ground, deep padded thump, cartoon-cute, dry",
+          "source": "assets:audio/generated/sfx/single-big-determined-stomp-of-a-small-c_86715b1542.mp3"
+        },
+        {
+          "file": "stomp_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/stomp_2.mp3",
+          "durationSec": 0.45,
+          "trimmedSec": 0.15,
+          "gainDb": -3.3,
+          "prompt": "Single impatient little dino stomp on earth, firm muffled thud with a tiny scuff, dry, close",
+          "source": "assets:audio/generated/sfx/single-impatient-little-dino-stomp-on-ea_0e1c940517.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tumble-bump",
+      "category": "impact",
+      "triggers": [
+        "tumble",
+        "drop"
+      ],
+      "volume": 0.75,
+      "variants": [
+        {
+          "file": "tumble-bump_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/tumble-bump_1.mp3",
+          "durationSec": 0.765,
+          "trimmedSec": 0.035,
+          "gainDb": 16,
+          "prompt": "Small chubby dinosaur tumbling over onto soft grass, padded body bump and a short roll, cartoon-gentle, dry",
+          "source": "assets:audio/generated/sfx/small-chubby-dinosaur-tumbling-over-onto_ef7a6e087d.mp3"
+        },
+        {
+          "file": "tumble-bump_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/tumble-bump_2.mp3",
+          "durationSec": 0.6,
+          "trimmedSec": 0.2,
+          "gainDb": 3.8,
+          "prompt": "Little round creature flopping onto its tummy on a grassy slope, cushioned whump and a brief scuff, dry",
+          "source": "assets:audio/generated/sfx/little-round-creature-flopping-onto-its-_54a748d34f.mp3"
+        }
+      ]
+    },
+    {
+      "id": "sit-plop",
+      "category": "impact",
+      "triggers": [
+        "sit"
+      ],
+      "volume": 0.75,
+      "variants": [
+        {
+          "file": "sit-plop_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/sit-plop_1.mp3",
+          "durationSec": 0.6,
+          "trimmedSec": 0,
+          "gainDb": 15.5,
+          "prompt": "A small chubby dinosaur sitting down hard on the ground: one clearly audible soft plush thump, present and close, dry",
+          "source": "assets:audio/generated/sfx/a-small-chubby-dinosaur-sitting-down-har_91854160a8.mp3"
+        },
+        {
+          "file": "sit-plop_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/sit-plop_2.mp3",
+          "durationSec": 0.425,
+          "trimmedSec": 0.175,
+          "gainDb": 4.7,
+          "prompt": "Little round creature sitting down heavily on a cushion, soft padded flump, dry, close",
+          "source": "assets:audio/generated/sfx/little-round-creature-sitting-down-heavi_7fb8a4a07c.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tail-swish",
+      "category": "foley",
+      "triggers": [
+        "turn",
+        "dance",
+        "run",
+        "cheer"
+      ],
+      "volume": 0.6,
+      "variants": [
+        {
+          "file": "tail-swish_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/tail-swish_1.mp3",
+          "durationSec": 0.356,
+          "trimmedSec": 0.244,
+          "gainDb": 1.6,
+          "prompt": "Soft quick swish of a small chubby dinosaur tail through the air, light airy whoosh, dry, close",
+          "source": "assets:audio/generated/sfx/soft-quick-swish-of-a-small-chubby-dinos_21ef846fcc.mp3"
+        },
+        {
+          "file": "tail-swish_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/tail-swish_2.mp3",
+          "durationSec": 0.59,
+          "trimmedSec": 0.01,
+          "gainDb": 17.4,
+          "prompt": "Little thick tail swinging round, a soft whoosh brushing past grass, dry, close",
+          "source": "assets:audio/generated/sfx/little-thick-tail-swinging-round-a-soft-_d5935a22ab.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tail-thump",
+      "category": "foley",
+      "triggers": [
+        "stomp",
+        "sit"
+      ],
+      "volume": 0.6,
+      "note": "tail bumping the ground",
+      "variants": [
+        {
+          "file": "tail-thump_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/tail-thump_1.mp3",
+          "durationSec": 0.48,
+          "trimmedSec": 0,
+          "gainDb": 16,
+          "prompt": "A chubby little tail slapping down on the ground: one clearly audible soft padded thump, present and close, dry",
+          "source": "assets:audio/generated/sfx/a-chubby-little-tail-slapping-down-on-th_3a51b42aba.mp3"
+        }
+      ]
+    },
+    {
+      "id": "rawr",
+      "category": "vocal",
+      "triggers": [
+        "cheer",
+        "woah",
+        "stomp"
+      ],
+      "volume": 0.8,
+      "note": "his signature: a tiny cute roar, more excited than scary",
+      "variants": [
+        {
+          "file": "rawr_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/rawr_1.mp3",
+          "durationSec": 1.69,
+          "trimmedSec": 0.07,
+          "gainDb": -6.3,
+          "f0Hz": 1470,
+          "line": "[excited] Rrrawwrrr!",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/excited-rrrawwrrr_d0ad72d77f.mp3"
+        },
+        {
+          "file": "rawr_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/rawr_2.mp3",
+          "durationSec": 2.205,
+          "trimmedSec": 0.115,
+          "gainDb": -5.4,
+          "line": "[playfully growls] Rrraaawrrr!",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/playfully-growls-rrraaawrrr_bc3df94ea8.mp3"
+        },
+        {
+          "file": "rawr_3.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/rawr_3.mp3",
+          "durationSec": 3.25,
+          "trimmedSec": 0.11,
+          "gainDb": -4.5,
+          "line": "[mischievously] Rawr! Rrrawr!",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/mischievously-rawr-rrrawr_ed50b56e43.mp3"
+        }
+      ]
+    },
+    {
+      "id": "giggle",
+      "category": "vocal",
+      "triggers": [
+        "cheer",
+        "wink",
+        "dance",
+        "wave"
+      ],
+      "volume": 0.8,
+      "note": "light, quick: rotate takes",
+      "variants": [
+        {
+          "file": "giggle_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/giggle_1.mp3",
+          "durationSec": 1.935,
+          "trimmedSec": 0.065,
+          "gainDb": -2.8,
+          "f0Hz": 387,
+          "line": "[giggles] Hehehe!",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/giggles-hehehe_41126c0b6f.mp3"
+        },
+        {
+          "file": "giggle_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/giggle_2.mp3",
+          "durationSec": 1.99,
+          "trimmedSec": 0.01,
+          "gainDb": -4.4,
+          "f0Hz": 513,
+          "line": "[giggles] Hee-hee-hee!",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/giggles-hee-hee-hee_36ad522657.mp3"
+        },
+        {
+          "file": "giggle_3.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/giggle_3.mp3",
+          "durationSec": 1.096,
+          "trimmedSec": 0.264,
+          "gainDb": -3.2,
+          "line": "[mischievously] Heh-heh-heh.",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/mischievously-heh-heh-heh_5550c8b79c.mp3"
+        },
+        {
+          "file": "giggle_4.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/giggle_4.mp3",
+          "durationSec": 2.995,
+          "trimmedSec": 0.125,
+          "gainDb": -2.1,
+          "f0Hz": 306,
+          "line": "[giggles softly] Hehe... hehe.",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/giggles-softly-hehe-hehe_24a5599f4e.mp3"
+        }
+      ]
+    },
+    {
+      "id": "laugh",
+      "category": "vocal",
+      "triggers": [
+        "cheer",
+        "dance"
+      ],
+      "volume": 0.8,
+      "note": "bigger laughs for big moments",
+      "variants": [
+        {
+          "file": "laugh_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/laugh_1.mp3",
+          "durationSec": 2.34,
+          "trimmedSec": 0.14,
+          "gainDb": -5.1,
+          "f0Hz": 380,
+          "line": "[laughs] Ha-ha-ha-ha!",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/laughs-ha-ha-ha-ha_d9c025cc10.mp3"
+        },
+        {
+          "file": "laugh_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/laugh_2.mp3",
+          "durationSec": 4.77,
+          "trimmedSec": 0.11,
+          "gainDb": -4,
+          "f0Hz": 374,
+          "line": "[laughs harder] Hahahaha! Haha!",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/laughs-harder-hahahaha-haha_e680a9d5b4.mp3"
+        },
+        {
+          "file": "laugh_3.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/laugh_3.mp3",
+          "durationSec": 3.1,
+          "trimmedSec": 0.1,
+          "gainDb": -5.2,
+          "line": "[excited] Ha-ha! [laughs] Hahaha!",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/excited-ha-ha-laughs-hahaha_0cd2ca6cc2.mp3"
+        }
+      ]
+    },
+    {
+      "id": "chuckle",
+      "category": "vocal",
+      "triggers": [
+        "wink",
+        "glance",
+        "think"
+      ],
+      "volume": 0.8,
+      "note": "small and closed-mouth",
+      "variants": [
+        {
+          "file": "chuckle_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/chuckle_1.mp3",
+          "durationSec": 2.61,
+          "trimmedSec": 0.11,
+          "gainDb": -1.9,
+          "f0Hz": 251,
+          "line": "[chuckles] Hm-hm-hm.",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/chuckles-hm-hm-hm_c6246fe5f2.mp3"
+        },
+        {
+          "file": "chuckle_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/chuckle_2.mp3",
+          "durationSec": 0.93,
+          "trimmedSec": 0.11,
+          "gainDb": -1.1,
+          "f0Hz": 212,
+          "line": "[chuckles softly] Heh-heh.",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/chuckles-softly-heh-heh_afb0a12fba.mp3"
+        }
+      ]
+    },
+    {
+      "id": "sheepish-laugh",
+      "category": "vocal",
+      "triggers": [
+        "tumble",
+        "drop",
+        "sneeze"
+      ],
+      "volume": 0.8,
+      "note": "oops: embarrassed after a mishap",
+      "variants": [
+        {
+          "file": "sheepish-laugh_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/sheepish-laugh_1.mp3",
+          "durationSec": 2.78,
+          "trimmedSec": 0.1,
+          "gainDb": -1,
+          "f0Hz": 251,
+          "line": "[nervous laugh] Heh... heh-heh. Oops.",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/nervous-laugh-heh-heh-heh-oops_5849257430.mp3"
+        }
+      ]
+    },
+    {
+      "id": "gasp",
+      "category": "vocal",
+      "triggers": [
+        "notice",
+        "woah"
+      ],
+      "volume": 0.8,
+      "note": "discovery: on the snap",
+      "variants": [
+        {
+          "file": "gasp_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/gasp_1.mp3",
+          "durationSec": 1.83,
+          "trimmedSec": 0.09,
+          "gainDb": -3.7,
+          "line": "[gasps] Oh!",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/gasps-oh_6c32ac7538.mp3"
+        },
+        {
+          "file": "gasp_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/gasp_2.mp3",
+          "durationSec": 1.945,
+          "trimmedSec": 0.135,
+          "gainDb": -5.4,
+          "line": "[gasps] Ah!",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/gasps-ah_ebe6825dd5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "ooh",
+      "category": "vocal",
+      "triggers": [
+        "woah",
+        "lookUp",
+        "peer"
+      ],
+      "volume": 0.8,
+      "note": "big discovery reaction (lore): wonder at something new",
+      "variants": [
+        {
+          "file": "ooh_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/ooh_1.mp3",
+          "durationSec": 1.555,
+          "trimmedSec": 0.125,
+          "gainDb": -4.3,
+          "f0Hz": 490,
+          "line": "[amazed] Ooooh!",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/amazed-ooooh_4bbb2995bf.mp3"
+        },
+        {
+          "file": "ooh_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/ooh_2.mp3",
+          "durationSec": 2.16,
+          "trimmedSec": 0,
+          "gainDb": -3,
+          "f0Hz": 235,
+          "line": "[curious] Oooh... wow.",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/curious-oooh-wow_5f9bcb64d0.mp3"
+        }
+      ]
+    },
+    {
+      "id": "woah",
+      "category": "vocal",
+      "triggers": [
+        "woah"
+      ],
+      "volume": 0.8,
+      "note": "on the snap of the double take",
+      "variants": [
+        {
+          "file": "woah_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/woah_1.mp3",
+          "durationSec": 1.68,
+          "trimmedSec": 0.08,
+          "gainDb": -3.5,
+          "f0Hz": 206,
+          "line": "[excited] Whoa!",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/excited-whoa_f9b7d86c4f.mp3"
+        },
+        {
+          "file": "woah_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/woah_2.mp3",
+          "durationSec": 1.57,
+          "trimmedSec": 0.11,
+          "gainDb": -4.5,
+          "f0Hz": 232,
+          "line": "[amazed] Wooaah!",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/amazed-wooaah_ef7284f019.mp3"
+        }
+      ]
+    },
+    {
+      "id": "hmm",
+      "category": "vocal",
+      "triggers": [
+        "think",
+        "peer",
+        "shrug",
+        "glance"
+      ],
+      "volume": 0.8,
+      "note": "curious, puzzling something out",
+      "variants": [
+        {
+          "file": "hmm_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/hmm_1.mp3",
+          "durationSec": 0.905,
+          "trimmedSec": 0.055,
+          "gainDb": -5,
+          "f0Hz": 1103,
+          "line": "[curious] Hmm?",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/curious-hmm_82b79fb707.mp3"
+        },
+        {
+          "file": "hmm_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/hmm_2.mp3",
+          "durationSec": 0.96,
+          "trimmedSec": 0,
+          "gainDb": -1.8,
+          "f0Hz": 311,
+          "line": "[thoughtful] Hmmm...",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/thoughtful-hmmm_3460700c1b.mp3"
+        }
+      ]
+    },
+    {
+      "id": "babble",
+      "category": "vocal",
+      "triggers": [
+        "talk"
+      ],
+      "volume": 0.8,
+      "note": "eager gibberish chatter matched to the mouth flaps",
+      "variants": [
+        {
+          "file": "babble_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/babble_1.mp3",
+          "durationSec": 4.845,
+          "trimmedSec": 0.035,
+          "gainDb": -5.2,
+          "line": "[excited] Ooh, bwa-ba-ba, ooga rocka! Mm-hm, bamba-loo!",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/excited-ooh-bwa-ba-ba-ooga-rocka-mm-hm-b_8bbb4c6beb.mp3"
+        },
+        {
+          "file": "babble_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/babble_2.mp3",
+          "durationSec": 2.85,
+          "trimmedSec": 0.11,
+          "gainDb": -6.6,
+          "line": "[excited] Bibba-bop! Ooh, ooh, dabba-dee, rocky-rock!",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/excited-bibba-bop-ooh-ooh-dabba-dee-rock_bdfb9fb881.mp3"
+        }
+      ]
+    },
+    {
+      "id": "lets-go",
+      "category": "vocal",
+      "triggers": [
+        "beckon",
+        "run"
+      ],
+      "volume": 0.8,
+      "note": "rushing into adventure: an eager hurry-up call",
+      "variants": [
+        {
+          "file": "lets-go_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/lets-go_1.mp3",
+          "durationSec": 2.165,
+          "trimmedSec": 0.155,
+          "gainDb": -6,
+          "f0Hz": 788,
+          "line": "[excited] C'mon, c'mon! Lessgo!",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/excited-c-mon-c-mon-lessgo_cde3bdf2fd.mp3"
+        }
+      ]
+    },
+    {
+      "id": "hup",
+      "category": "vocal",
+      "triggers": [
+        "hop",
+        "jump",
+        "sit",
+        "pickUp"
+      ],
+      "volume": 0.8,
+      "note": "just before take-off / standing up",
+      "variants": [
+        {
+          "file": "hup_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/hup_1.mp3",
+          "durationSec": 1.795,
+          "trimmedSec": 0.125,
+          "gainDb": -3.5,
+          "line": "[effort] Hup!",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/effort-hup_5dcd717a8e.mp3"
+        },
+        {
+          "file": "hup_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/hup_2.mp3",
+          "durationSec": 1.18,
+          "trimmedSec": 0.02,
+          "gainDb": -1,
+          "line": "[effort] Hyup!",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/effort-hyup_bd637f7067.mp3"
+        }
+      ]
+    },
+    {
+      "id": "strain",
+      "category": "vocal",
+      "triggers": [
+        "crouch",
+        "reach",
+        "pickUp"
+      ],
+      "volume": 0.8,
+      "variants": [
+        {
+          "file": "strain_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/strain_1.mp3",
+          "durationSec": 2.05,
+          "trimmedSec": 0.11,
+          "gainDb": -2.3,
+          "line": "[straining] Nnnnngh!",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/straining-nnnnngh_74f6652f52.mp3"
+        }
+      ]
+    },
+    {
+      "id": "pant",
+      "category": "vocal",
+      "triggers": [
+        "run"
+      ],
+      "volume": 0.8,
+      "note": "after a run, as he stops",
+      "variants": [
+        {
+          "file": "pant_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/pant_1.mp3",
+          "durationSec": 2.86,
+          "trimmedSec": 0.1,
+          "gainDb": -1.3,
+          "f0Hz": 356,
+          "line": "[out of breath] Hah... hah... hah... [laughs] hehe.",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/out-of-breath-hah-hah-hah-laughs-hehe_f56a11758b.mp3"
+        }
+      ]
+    },
+    {
+      "id": "hmph",
+      "category": "vocal",
+      "triggers": [
+        "hmph",
+        "stomp"
+      ],
+      "volume": 0.8,
+      "variants": [
+        {
+          "file": "hmph_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/hmph_1.mp3",
+          "durationSec": 0.99,
+          "trimmedSec": 0.05,
+          "gainDb": -2,
+          "f0Hz": 165,
+          "line": "[grumpy] Hmph!",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/grumpy-hmph_452c02e76d.mp3"
+        },
+        {
+          "file": "hmph_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/hmph_2.mp3",
+          "durationSec": 0.515,
+          "trimmedSec": 0.125,
+          "gainDb": -6.5,
+          "line": "[annoyed] Hmmph.",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/annoyed-hmmph_b80e93ce15.mp3"
+        }
+      ]
+    },
+    {
+      "id": "uh-oh",
+      "category": "vocal",
+      "triggers": [
+        "tumble",
+        "drop"
+      ],
+      "volume": 0.8,
+      "note": "impulsive: rushed in, oops",
+      "variants": [
+        {
+          "file": "uh-oh_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/uh-oh_1.mp3",
+          "durationSec": 1.12,
+          "trimmedSec": 0.16,
+          "gainDb": -5.8,
+          "line": "[worried] Uh-oh!",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/worried-uh-oh_722f843e83.mp3"
+        }
+      ]
+    },
+    {
+      "id": "dizzy-giggle",
+      "category": "vocal",
+      "triggers": [
+        "tumble",
+        "drop"
+      ],
+      "volume": 0.8,
+      "note": "after the dazed stars",
+      "variants": [
+        {
+          "file": "dizzy-giggle_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/dizzy-giggle_1.mp3",
+          "durationSec": 3.65,
+          "trimmedSec": 0.11,
+          "gainDb": -5.3,
+          "f0Hz": 329,
+          "line": "[dizzy] Whoaa... [giggles] hehehe...",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/dizzy-whoaa-giggles-hehehe_211a9d6049.mp3"
+        }
+      ]
+    },
+    {
+      "id": "ahh",
+      "category": "vocal",
+      "triggers": [
+        "sip"
+      ],
+      "volume": 0.8,
+      "variants": [
+        {
+          "file": "ahh_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/ahh_1.mp3",
+          "durationSec": 1.85,
+          "trimmedSec": 0.07,
+          "gainDb": 0.2,
+          "f0Hz": 197,
+          "line": "[satisfied sigh] Ahhh!",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/satisfied-sigh-ahhh_7229b4ed94.mp3"
+        }
+      ]
+    },
+    {
+      "id": "sneeze",
+      "category": "vocal",
+      "triggers": [
+        "sneeze"
+      ],
+      "volume": 0.8,
+      "note": "build then choo: align the choo with the snap",
+      "variants": [
+        {
+          "file": "sneeze_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/sneeze_1.mp3",
+          "durationSec": 4,
+          "trimmedSec": 0,
+          "gainDb": -3.6,
+          "line": "Ah... ah... ahh-CHOO!",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/ah-ah-ahh-choo_4000deabb8.mp3"
+        },
+        {
+          "file": "sneeze_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/sneeze_2.mp3",
+          "durationSec": 3.76,
+          "trimmedSec": 0,
+          "gainDb": -4.2,
+          "line": "Ah... ahh... CHOO! [sniffs]",
+          "voiceId": "JWhfSaJPDICCbPHsbSTK",
+          "source": "assets:audio/generated/voice/ah-ahh-choo-sniffs_8470c44abc.mp3"
+        }
+      ]
+    },
+    {
+      "id": "huff-breath",
+      "category": "fx",
+      "triggers": [
+        "huff"
+      ],
+      "volume": 0.7,
+      "variants": [
+        {
+          "file": "huff-breath_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/huff-breath_1.mp3",
+          "durationSec": 0.755,
+          "trimmedSec": 0.045,
+          "gainDb": 13.4,
+          "prompt": "Soft airy breath exhale, gentle whoosh of warm air against glass, no voice, no vocal sound",
+          "source": "assets:audio/generated/sfx/soft-airy-breath-exhale-gentle-whoosh-of_c1738d61ad.mp3"
+        }
+      ]
+    },
+    {
+      "id": "dazed",
+      "category": "fx",
+      "triggers": [
+        "tumble",
+        "drop",
+        "sneeze"
+      ],
+      "volume": 0.7,
+      "variants": [
+        {
+          "file": "dazed_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/dazed_1.mp3",
+          "durationSec": 2,
+          "trimmedSec": 0,
+          "gainDb": 7.7,
+          "prompt": "Dizzy dazed sound after a fall: a clear soft wobbling twinkle of little stars circling, gentle bell tones swirling, audible and present",
+          "source": "assets:audio/generated/sfx/dizzy-dazed-sound-after-a-fall-a-clear-s_535ef294aa.mp3"
+        }
+      ]
+    },
+    {
+      "id": "discovery",
+      "category": "fx",
+      "triggers": [
+        "woah",
+        "notice",
+        "wink"
+      ],
+      "volume": 0.7,
+      "note": "a bright found-it sparkle",
+      "variants": [
+        {
+          "file": "discovery_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/discovery_1.mp3",
+          "durationSec": 1,
+          "trimmedSec": 0,
+          "gainDb": 5.5,
+          "prompt": "Bright cheerful discovery sparkle, a quick rising twinkle chime, cute and magical",
+          "source": "assets:audio/generated/sfx/bright-cheerful-discovery-sparkle-a-quic_f43203ac45.mp3"
+        }
+      ]
+    },
+    {
+      "id": "rock-clack",
+      "category": "foley",
+      "triggers": [
+        "pickUp",
+        "putDown"
+      ],
+      "volume": 0.6,
+      "note": "his funny-shaped rocks (lore)",
+      "variants": [
+        {
+          "file": "rock-clack_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/rock-clack_1.mp3",
+          "durationSec": 0.48,
+          "trimmedSec": 0,
+          "gainDb": 8.1,
+          "prompt": "Two small smooth stones knocked together once: a clear crisp rocky clack, clearly audible, dry, close",
+          "source": "assets:audio/generated/sfx/two-small-smooth-stones-knocked-together_099054d947.mp3"
+        },
+        {
+          "file": "rock-clack_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/rock-clack_2.mp3",
+          "durationSec": 0.48,
+          "trimmedSec": 0,
+          "gainDb": -0.9,
+          "prompt": "Small rock set down on dry earth, soft stony tock and a little gravel crunch, dry, close",
+          "source": "assets:audio/generated/sfx/small-rock-set-down-on-dry-earth-soft-st_43fd9a92d5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "mug-set",
+      "category": "foley",
+      "triggers": [
+        "putDown"
+      ],
+      "volume": 0.6,
+      "note": "at the touch (PUT_TOUCH)",
+      "variants": [
+        {
+          "file": "mug-set_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Rex/sounds/mug-set_1.mp3",
+          "durationSec": 0.515,
+          "trimmedSec": 0.085,
+          "gainDb": 24,
+          "quiet": true,
+          "prompt": "Ceramic mug set down gently on a soft rug over wood, soft muted clunk, dry, close",
+          "source": "assets:audio/generated/sfx/ceramic-mug-set-down-gently-on-a-soft-ru_c0e20ea4e0.mp3"
+        }
+      ]
+    }
+  ]
+}

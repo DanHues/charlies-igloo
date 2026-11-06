@@ -1,0 +1,513 @@
+[
+ {
+  "start": 542,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/hiii_1.mp3",
+  "durationSec": 1.035,
+  "volume": 0.8,
+  "label": "Axie hiii! (bursting in)"
+ },
+ {
+  "start": 544,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/run-step_1.mp3",
+  "durationSec": 0.395,
+  "volume": 0.6,
+  "label": "Axie run step"
+ },
+ {
+  "start": 549,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/run-step_2.mp3",
+  "durationSec": 0.48,
+  "volume": 0.54,
+  "label": "Axie run step"
+ },
+ {
+  "start": 555,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/run-step_3.mp3",
+  "durationSec": 0.375,
+  "volume": 0.54,
+  "label": "Axie run step"
+ },
+ {
+  "start": 560,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/run-step_1.mp3",
+  "durationSec": 0.395,
+  "volume": 0.66,
+  "label": "Axie run step"
+ },
+ {
+  "start": 565,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/run-step_2.mp3",
+  "durationSec": 0.48,
+  "volume": 0.6,
+  "label": "Axie run step"
+ },
+ {
+  "start": 570,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/run-step_3.mp3",
+  "durationSec": 0.375,
+  "volume": 0.54,
+  "label": "Axie run step"
+ },
+ {
+  "start": 576,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/run-step_1.mp3",
+  "durationSec": 0.395,
+  "volume": 0.54,
+  "label": "Axie run step"
+ },
+ {
+  "start": 584,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/run-step_2.mp3",
+  "durationSec": 0.48,
+  "volume": 0.66,
+  "label": "Axie run step"
+ },
+ {
+  "start": 590,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/run-step_3.mp3",
+  "durationSec": 0.375,
+  "volume": 0.66,
+  "label": "Axie run step"
+ },
+ {
+  "start": 596,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/run-step_1.mp3",
+  "durationSec": 0.395,
+  "volume": 0.66,
+  "label": "Axie run step"
+ },
+ {
+  "start": 600,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/tail-swish_1.mp3",
+  "durationSec": 0.485,
+  "volume": 0.48,
+  "label": "Axie tail swish"
+ },
+ {
+  "start": 605,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-rug_1.mp3",
+  "durationSec": 0.335,
+  "volume": 0.66,
+  "label": "Axie step (rug)"
+ },
+ {
+  "start": 612,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-rug_2.mp3",
+  "durationSec": 0.39,
+  "volume": 0.54,
+  "label": "Axie step (rug)"
+ },
+ {
+  "start": 614,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/gill-wiggle_1.mp3",
+  "durationSec": 0.45,
+  "volume": 0.6,
+  "label": "Axie gill wiggle"
+ },
+ {
+  "start": 618,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/babble_2.mp3",
+  "durationSec": 3.51,
+  "volume": 0.8,
+  "label": "Axie babble"
+ },
+ {
+  "start": 754,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/gill-wiggle_2.mp3",
+  "durationSec": 0.5,
+  "volume": 0.6,
+  "label": "Axie gill wiggle"
+ },
+ {
+  "start": 758,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/cmon_1.mp3",
+  "durationSec": 1.565,
+  "volume": 0.8,
+  "label": "Axie c'mon, c'mon!"
+ },
+ {
+  "start": 773,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/land_1.mp3",
+  "durationSec": 0.395,
+  "volume": 0.442,
+  "label": "Axie land"
+ },
+ {
+  "start": 794,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/land_2.mp3",
+  "durationSec": 0.52,
+  "volume": 0.442,
+  "label": "Axie land"
+ },
+ {
+  "start": 808,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/cmon_2.mp3",
+  "durationSec": 1.605,
+  "volume": 0.8,
+  "label": "Axie c'mon! hup-hup!"
+ },
+ {
+  "start": 816,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/land_1.mp3",
+  "durationSec": 0.395,
+  "volume": 0.442,
+  "label": "Axie land"
+ },
+ {
+  "start": 824,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/land_2.mp3",
+  "durationSec": 0.52,
+  "volume": 0.442,
+  "label": "Axie land"
+ },
+ {
+  "start": 838,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/tail-swish_2.mp3",
+  "durationSec": 0.43,
+  "volume": 0.48,
+  "label": "Axie tail swish"
+ },
+ {
+  "start": 840,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-rug_3.mp3",
+  "durationSec": 0.41,
+  "volume": 0.54,
+  "label": "Axie step (rug)"
+ },
+ {
+  "start": 848,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-rug_1.mp3",
+  "durationSec": 0.335,
+  "volume": 0.66,
+  "label": "Axie step (rug)"
+ },
+ {
+  "start": 891,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-rug_2.mp3",
+  "durationSec": 0.39,
+  "volume": 0.54,
+  "label": "Axie step (rug)"
+ },
+ {
+  "start": 905,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-rug_3.mp3",
+  "durationSec": 0.41,
+  "volume": 0.66,
+  "label": "Axie step (rug)"
+ },
+ {
+  "start": 920,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-rug_1.mp3",
+  "durationSec": 0.335,
+  "volume": 0.66,
+  "label": "Axie step (rug)"
+ },
+ {
+  "start": 934,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-rug_2.mp3",
+  "durationSec": 0.39,
+  "volume": 0.6,
+  "label": "Axie step (rug)"
+ },
+ {
+  "start": 948,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-rug_3.mp3",
+  "durationSec": 0.41,
+  "volume": 0.54,
+  "label": "Axie step (rug)"
+ },
+ {
+  "start": 967,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-rug_1.mp3",
+  "durationSec": 0.335,
+  "volume": 0.6,
+  "label": "Axie step (rug)"
+ },
+ {
+  "start": 973,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-rug_2.mp3",
+  "durationSec": 0.39,
+  "volume": 0.6,
+  "label": "Axie step (rug)"
+ },
+ {
+  "start": 1000,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_1.mp3",
+  "durationSec": 0.445,
+  "volume": 0.66,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1009,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_2.mp3",
+  "durationSec": 0.48,
+  "volume": 0.66,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1019,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_3.mp3",
+  "durationSec": 0.405,
+  "volume": 0.54,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1029,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_4.mp3",
+  "durationSec": 0.335,
+  "volume": 0.6,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1038,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_1.mp3",
+  "durationSec": 0.445,
+  "volume": 0.6,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1048,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_2.mp3",
+  "durationSec": 0.48,
+  "volume": 0.66,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1057,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_3.mp3",
+  "durationSec": 0.405,
+  "volume": 0.66,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1067,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_4.mp3",
+  "durationSec": 0.335,
+  "volume": 0.54,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1077,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_1.mp3",
+  "durationSec": 0.445,
+  "volume": 0.6,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1086,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_2.mp3",
+  "durationSec": 0.48,
+  "volume": 0.6,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1096,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_3.mp3",
+  "durationSec": 0.405,
+  "volume": 0.66,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1106,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_4.mp3",
+  "durationSec": 0.335,
+  "volume": 0.54,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1115,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_1.mp3",
+  "durationSec": 0.445,
+  "volume": 0.54,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1125,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_2.mp3",
+  "durationSec": 0.48,
+  "volume": 0.6,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1134,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_3.mp3",
+  "durationSec": 0.405,
+  "volume": 0.6,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1144,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_4.mp3",
+  "durationSec": 0.335,
+  "volume": 0.66,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1154,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_1.mp3",
+  "durationSec": 0.445,
+  "volume": 0.54,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1163,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_2.mp3",
+  "durationSec": 0.48,
+  "volume": 0.54,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1173,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_3.mp3",
+  "durationSec": 0.405,
+  "volume": 0.6,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1182,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_4.mp3",
+  "durationSec": 0.335,
+  "volume": 0.6,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1192,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_1.mp3",
+  "durationSec": 0.445,
+  "volume": 0.66,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1202,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_2.mp3",
+  "durationSec": 0.48,
+  "volume": 0.54,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1211,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_3.mp3",
+  "durationSec": 0.405,
+  "volume": 0.54,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1221,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_4.mp3",
+  "durationSec": 0.335,
+  "volume": 0.6,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1230,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_1.mp3",
+  "durationSec": 0.445,
+  "volume": 0.6,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1240,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_2.mp3",
+  "durationSec": 0.48,
+  "volume": 0.66,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1250,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_3.mp3",
+  "durationSec": 0.405,
+  "volume": 0.54,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1260,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_4.mp3",
+  "durationSec": 0.335,
+  "volume": 0.6,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1270,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_1.mp3",
+  "durationSec": 0.445,
+  "volume": 0.66,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1272,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/tail-swish_1.mp3",
+  "durationSec": 0.485,
+  "volume": 0.48,
+  "label": "Axie tail swish"
+ },
+ {
+  "start": 1278,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_2.mp3",
+  "durationSec": 0.48,
+  "volume": 0.6,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1286,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_3.mp3",
+  "durationSec": 0.405,
+  "volume": 0.54,
+  "label": "Axie step (snow)"
+ },
+ {
+  "start": 1302,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/sit-plop_1.mp3",
+  "durationSec": 0.355,
+  "volume": 0.75,
+  "label": "Axie sit plop"
+ },
+ {
+  "start": 1320,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/giggle_1.mp3",
+  "durationSec": 1.32,
+  "volume": 0.56,
+  "label": "Axie happy settle giggle"
+ },
+ {
+  "start": 1368,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/giggle_2.mp3",
+  "durationSec": 1.67,
+  "volume": 0.6,
+  "label": "Axie warm glance giggle"
+ },
+ {
+  "start": 1488,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/gill-wiggle_1.mp3",
+  "durationSec": 0.45,
+  "volume": 0.6,
+  "label": "Axie woah: gill flutter"
+ },
+ {
+  "start": 1494,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/woah_1.mp3",
+  "durationSec": 1.32,
+  "volume": 0.8,
+  "label": "Axie woah!"
+ },
+ {
+  "start": 1526,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/ooh_1.mp3",
+  "durationSec": 1.245,
+  "volume": 0.8,
+  "label": "Axie woah: ooh of wonder"
+ },
+ {
+  "start": 1530,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/bubbles_1.mp3",
+  "durationSec": 1,
+  "volume": 0.56,
+  "label": "Axie woah: bubble sparkle"
+ },
+ {
+  "start": 1602,
+  "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/ooh_2.mp3",
+  "durationSec": 2.04,
+  "volume": 0.68,
+  "label": "Axie ooh (stars)"
+ }
+]

@@ -1,0 +1,1037 @@
+{
+  "character": "stickirolls-happy-axie",
+  "voice": "a small bubbly baby axolotl girl, bright cheerful voice, high and squeaky-cute, playful and energetic, no words, no speech",
+  "feet": "tiny soft rubbery stumpy feet, light squishy pats; lighter and quicker than Charlie",
+  "levels": {
+    "note": "Every clip is levelled per category (RMS dBFS of its sounding part) and trimmed to its onset, so a clip plays on its cue frame. Use `volume` as the track volume.",
+    "target": {
+      "step": -27,
+      "impact": -23,
+      "foley": -25,
+      "vocal": -21,
+      "fx": -24
+    }
+  },
+  "generator": "Animation Suite: npx tsx scripts/make-sound-library.ts (ElevenLabs eleven_text_to_sound_v3)",
+  "sounds": [
+    {
+      "id": "step-snow",
+      "category": "step",
+      "triggers": [
+        "walk",
+        "stroll",
+        "approach",
+        "turn"
+      ],
+      "volume": 0.6,
+      "note": "outdoor walk; rotate variants, vary volume ±10%",
+      "variants": [
+        {
+          "file": "step-snow_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_1.mp3",
+          "durationSec": 0.445,
+          "trimmedSec": 0.035,
+          "gainDb": 18.1,
+          "prompt": "Single tiny soft squishy footstep of a small rubbery creature on packed snow, light pat with a faint crunch, dry, close",
+          "source": "assets:audio/generated/sfx/single-tiny-soft-squishy-footstep-of-a-s_efc9f31614.mp3"
+        },
+        {
+          "file": "step-snow_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_2.mp3",
+          "durationSec": 0.48,
+          "trimmedSec": 0,
+          "gainDb": 18,
+          "prompt": "One soft squishy footstep in fresh snow, a small rubbery foot pressing down with a light crunch, clear and close, dry",
+          "source": "assets:audio/generated/sfx/one-soft-squishy-footstep-in-fresh-snow-_b3952fb6b6.mp3"
+        },
+        {
+          "file": "step-snow_3.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_3.mp3",
+          "durationSec": 0.405,
+          "trimmedSec": 0.075,
+          "gainDb": 6.3,
+          "prompt": "Single little squeaky-soft footstep of a tiny creature on snow, light rubbery pat, dry, close",
+          "source": "assets:audio/generated/sfx/single-little-squeaky-soft-footstep-of-a_faa2bd9e17.mp3"
+        },
+        {
+          "file": "step-snow_4.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-snow_4.mp3",
+          "durationSec": 0.335,
+          "trimmedSec": 0.145,
+          "gainDb": 17.7,
+          "prompt": "Single quick light footfall of a tiny soft creature on packed snow, soft squish, dry, close",
+          "source": "assets:audio/generated/sfx/single-quick-light-footfall-of-a-tiny-so_b9b700a151.mp3"
+        }
+      ]
+    },
+    {
+      "id": "step-rug",
+      "category": "step",
+      "triggers": [
+        "walk",
+        "stroll",
+        "approach",
+        "turn"
+      ],
+      "volume": 0.6,
+      "note": "indoors (igloo rug / floor)",
+      "variants": [
+        {
+          "file": "step-rug_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-rug_1.mp3",
+          "durationSec": 0.335,
+          "trimmedSec": 0.145,
+          "gainDb": -2.8,
+          "prompt": "Single tiny soft squishy footstep on a thick woolly rug, very light muffled pat, dry, close",
+          "source": "assets:audio/generated/sfx/single-tiny-soft-squishy-footstep-on-a-t_1567f3ed58.mp3"
+        },
+        {
+          "file": "step-rug_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-rug_2.mp3",
+          "durationSec": 0.39,
+          "trimmedSec": 0.09,
+          "gainDb": 17.7,
+          "prompt": "Single light rubbery little footstep on a cosy wool rug, soft squish, clearly audible and present, dry, close",
+          "source": "assets:audio/generated/sfx/single-light-rubbery-little-footstep-on-_2b150b6078.mp3"
+        },
+        {
+          "file": "step-rug_3.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-rug_3.mp3",
+          "durationSec": 0.41,
+          "trimmedSec": 0.07,
+          "gainDb": -8.9,
+          "prompt": "Single tiny padded footfall of a small soft creature on carpet, gentle muffled pat, dry, close",
+          "source": "assets:audio/generated/sfx/single-tiny-padded-footfall-of-a-small-s_b47afa82ad.mp3"
+        }
+      ]
+    },
+    {
+      "id": "run-step",
+      "category": "step",
+      "triggers": [
+        "run"
+      ],
+      "volume": 0.6,
+      "variants": [
+        {
+          "file": "run-step_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/run-step_1.mp3",
+          "durationSec": 0.395,
+          "trimmedSec": 0.085,
+          "gainDb": 13.3,
+          "prompt": "Single quick light running footstep of a tiny rubbery creature on firm snow, short soft squishy pat, dry, close",
+          "source": "assets:audio/generated/sfx/single-quick-light-running-footstep-of-a_dd9c5e5625.mp3"
+        },
+        {
+          "file": "run-step_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/run-step_2.mp3",
+          "durationSec": 0.48,
+          "trimmedSec": 0,
+          "gainDb": 2.2,
+          "prompt": "Single fast pitter-pat footstep, tiny soft foot on firm snow, short light squish, dry, close",
+          "source": "assets:audio/generated/sfx/single-fast-pitter-pat-footstep-tiny-sof_9283135e83.mp3"
+        },
+        {
+          "file": "run-step_3.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/run-step_3.mp3",
+          "durationSec": 0.375,
+          "trimmedSec": 0.105,
+          "gainDb": 3.5,
+          "prompt": "One quick bouncy little footfall on snow, small soft creature running, short pat, dry, close",
+          "source": "assets:audio/generated/sfx/one-quick-bouncy-little-footfall-on-snow_f787bfa6d0.mp3"
+        }
+      ]
+    },
+    {
+      "id": "land",
+      "category": "impact",
+      "triggers": [
+        "hop",
+        "jump",
+        "dance",
+        "beckon"
+      ],
+      "volume": 0.75,
+      "note": "two-footed landing; scale volume with the drop (beckon hops: quiet)",
+      "variants": [
+        {
+          "file": "land_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/land_1.mp3",
+          "durationSec": 0.395,
+          "trimmedSec": 0.125,
+          "gainDb": 5.3,
+          "prompt": "Small soft squishy creature landing with both feet on packed snow, light bouncy rubbery thump, dry, close",
+          "source": "assets:audio/generated/sfx/small-soft-squishy-creature-landing-with_0bee7adecf.mp3"
+        },
+        {
+          "file": "land_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/land_2.mp3",
+          "durationSec": 0.52,
+          "trimmedSec": 0,
+          "gainDb": 7.8,
+          "prompt": "Tiny plush creature landing from a little hop onto snow, a full soft springy squish-thump with a little bounce, dry, close",
+          "source": "assets:audio/generated/sfx/tiny-plush-creature-landing-from-a-littl_869e572a13.mp3"
+        }
+      ]
+    },
+    {
+      "id": "stomp",
+      "category": "impact",
+      "triggers": [
+        "stomp",
+        "hmph"
+      ],
+      "volume": 0.75,
+      "variants": [
+        {
+          "file": "stomp_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/stomp_1.mp3",
+          "durationSec": 0.48,
+          "trimmedSec": 0,
+          "gainDb": 8.9,
+          "prompt": "Single pouty little stomp of a tiny soft creature on packed snow, light firm squishy thump, dry, close",
+          "source": "assets:audio/generated/sfx/single-pouty-little-stomp-of-a-tiny-soft_6503ced1df.mp3"
+        },
+        {
+          "file": "stomp_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/stomp_2.mp3",
+          "durationSec": 0.295,
+          "trimmedSec": 0.185,
+          "gainDb": -2.7,
+          "prompt": "Single cross little foot stamp of a small rubbery creature on packed snow, a firm squishy thump with a tiny crunch, audible, dry, close",
+          "source": "assets:audio/generated/sfx/single-cross-little-foot-stamp-of-a-smal_b34c15fdb4.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tumble-bump",
+      "category": "impact",
+      "triggers": [
+        "tumble",
+        "drop"
+      ],
+      "volume": 0.75,
+      "variants": [
+        {
+          "file": "tumble-bump_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/tumble-bump_1.mp3",
+          "durationSec": 0.715,
+          "trimmedSec": 0.085,
+          "gainDb": -4,
+          "prompt": "Small soft rubbery plush body bouncing down onto soft snow, squishy bump with a little bounce, cartoon-gentle, dry",
+          "source": "assets:audio/generated/sfx/small-soft-rubbery-plush-body-bouncing-d_22c482d4ad.mp3"
+        },
+        {
+          "file": "tumble-bump_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/tumble-bump_2.mp3",
+          "durationSec": 0.675,
+          "trimmedSec": 0.125,
+          "gainDb": 24,
+          "quiet": true,
+          "prompt": "Tiny squishy creature flopping over onto soft snow, a clear rubbery bump and a brief scuff, audible and present, dry",
+          "source": "assets:audio/generated/sfx/tiny-squishy-creature-flopping-over-onto_e796a94a94.mp3"
+        }
+      ]
+    },
+    {
+      "id": "sit-plop",
+      "category": "impact",
+      "triggers": [
+        "sit"
+      ],
+      "volume": 0.75,
+      "variants": [
+        {
+          "file": "sit-plop_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/sit-plop_1.mp3",
+          "durationSec": 0.355,
+          "trimmedSec": 0.125,
+          "gainDb": 8.3,
+          "prompt": "Tiny soft creature plopping down to sit, light squishy plush flump, cosy, dry, close",
+          "source": "assets:audio/generated/sfx/tiny-soft-creature-plopping-down-to-sit-_cc1efe515a.mp3"
+        },
+        {
+          "file": "sit-plop_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/sit-plop_2.mp3",
+          "durationSec": 0.425,
+          "trimmedSec": 0.055,
+          "gainDb": 24,
+          "quiet": true,
+          "prompt": "Little rubbery creature bouncing down to sit on a soft rug, a clear gentle squishy flump, audible, dry, close",
+          "source": "assets:audio/generated/sfx/little-rubbery-creature-bouncing-down-to_85b711c126.mp3"
+        }
+      ]
+    },
+    {
+      "id": "gill-wiggle",
+      "category": "foley",
+      "triggers": [
+        "cheer",
+        "wave",
+        "talk",
+        "beckon",
+        "dance",
+        "woah",
+        "notice"
+      ],
+      "volume": 0.6,
+      "variants": [
+        {
+          "file": "gill-wiggle_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/gill-wiggle_1.mp3",
+          "durationSec": 0.45,
+          "trimmedSec": 0.15,
+          "gainDb": 2.7,
+          "prompt": "Quick soft rubbery wiggle-flutter of little jelly-like frills, light squishy wobble, cute, dry, close",
+          "source": "assets:audio/generated/sfx/quick-soft-rubbery-wiggle-flutter-of-lit_12e1c696a9.mp3"
+        },
+        {
+          "file": "gill-wiggle_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/gill-wiggle_2.mp3",
+          "durationSec": 0.5,
+          "trimmedSec": 0.1,
+          "gainDb": 22.1,
+          "prompt": "Gentle wobbly jelly flutter of small soft frills shaking, tiny squishy jiggle, dry, close",
+          "source": "assets:audio/generated/sfx/gentle-wobbly-jelly-flutter-of-small-sof_2fd09c06d1.mp3"
+        }
+      ]
+    },
+    {
+      "id": "tail-swish",
+      "category": "foley",
+      "triggers": [
+        "turn",
+        "dance",
+        "run"
+      ],
+      "volume": 0.6,
+      "variants": [
+        {
+          "file": "tail-swish_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/tail-swish_1.mp3",
+          "durationSec": 0.485,
+          "trimmedSec": 0.115,
+          "gainDb": -0.9,
+          "prompt": "Soft quick swish of a small rubbery tail through the air, light airy whoosh, dry, close",
+          "source": "assets:audio/generated/sfx/soft-quick-swish-of-a-small-rubbery-tail_e91a573258.mp3"
+        },
+        {
+          "file": "tail-swish_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/tail-swish_2.mp3",
+          "durationSec": 0.43,
+          "trimmedSec": 0.17,
+          "gainDb": 6.3,
+          "prompt": "Little tail flick, a soft rubbery swish through the air, clearly audible, dry, close",
+          "source": "assets:audio/generated/sfx/little-tail-flick-a-soft-rubbery-swish-t_cddb135911.mp3"
+        }
+      ]
+    },
+    {
+      "id": "giggle",
+      "category": "vocal",
+      "triggers": [
+        "cheer",
+        "wink",
+        "dance",
+        "wave",
+        "glance"
+      ],
+      "volume": 0.8,
+      "note": "her signature bubbly laugh",
+      "variants": [
+        {
+          "file": "giggle_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/giggle_1.mp3",
+          "durationSec": 1.32,
+          "trimmedSec": 0.12,
+          "gainDb": -4,
+          "f0Hz": 551,
+          "line": "[giggles] Hehehe!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/giggles-hehehe_b18b3183ac.mp3"
+        },
+        {
+          "file": "giggle_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/giggle_2.mp3",
+          "durationSec": 1.67,
+          "trimmedSec": 0.09,
+          "gainDb": -6.6,
+          "f0Hz": 501,
+          "line": "[giggles] Hee-hee-hee!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/giggles-hee-hee-hee_704b82f998.mp3"
+        },
+        {
+          "file": "giggle_3.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/giggle_3.mp3",
+          "durationSec": 2.96,
+          "trimmedSec": 0,
+          "gainDb": -4.6,
+          "f0Hz": 248,
+          "line": "[laughs] Hehe-hehe! [giggles]",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/laughs-hehe-hehe-giggles_375e554f17.mp3"
+        }
+      ]
+    },
+    {
+      "id": "babble",
+      "category": "vocal",
+      "triggers": [
+        "talk"
+      ],
+      "volume": 0.8,
+      "note": "mumbly chatter: gibberish only, matched to the mouth flaps",
+      "variants": [
+        {
+          "file": "babble_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/babble_1.mp3",
+          "durationSec": 5.295,
+          "trimmedSec": 0.065,
+          "gainDb": -6,
+          "f0Hz": 959,
+          "line": "[excited] Ooh, bibba-boo, nom-nom-nom! Mm-hm, wibbly-boo!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/excited-ooh-bibba-boo-nom-nom-nom-mm-hm-_4b4a057867.mp3"
+        },
+        {
+          "file": "babble_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/babble_2.mp3",
+          "durationSec": 3.51,
+          "trimmedSec": 0.17,
+          "gainDb": -6.7,
+          "line": "[happily] Ba-bloo, bubba-loo, ooh, yummy-yum!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/happily-ba-bloo-bubba-loo-ooh-yummy-yum_2204f03476.mp3"
+        }
+      ]
+    },
+    {
+      "id": "come-on",
+      "category": "vocal",
+      "triggers": [
+        "beckon"
+      ],
+      "volume": 0.8,
+      "note": "on the scoops",
+      "variants": [
+        {
+          "file": "come-on_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/come-on_1.mp3",
+          "durationSec": 1.925,
+          "trimmedSec": 0.075,
+          "gainDb": -8.6,
+          "f0Hz": 817,
+          "line": "[excited] Eep-eep! C'mon!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/excited-eep-eep-c-mon_49a4159e8a.mp3"
+        },
+        {
+          "file": "come-on_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/come-on_2.mp3",
+          "durationSec": 1.715,
+          "trimmedSec": 0.125,
+          "gainDb": -10.1,
+          "f0Hz": 469,
+          "line": "[excited] Hup-hup! C'mon, c'mon!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/excited-hup-hup-c-mon-c-mon_aa039b6806.mp3"
+        }
+      ]
+    },
+    {
+      "id": "squeal",
+      "category": "vocal",
+      "triggers": [
+        "cheer",
+        "woah"
+      ],
+      "volume": 0.8,
+      "variants": [
+        {
+          "file": "squeal_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/squeal_1.mp3",
+          "durationSec": 1.255,
+          "trimmedSec": 0.185,
+          "gainDb": -7.6,
+          "line": "[delighted] Eeeee!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/delighted-eeeee_d1ae326586.mp3"
+        }
+      ]
+    },
+    {
+      "id": "gasp",
+      "category": "vocal",
+      "triggers": [
+        "notice",
+        "woah"
+      ],
+      "volume": 0.8,
+      "variants": [
+        {
+          "file": "gasp_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/gasp_1.mp3",
+          "durationSec": 1.335,
+          "trimmedSec": 0.105,
+          "gainDb": -6.3,
+          "f0Hz": 580,
+          "line": "[gasps] Oh!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/gasps-oh_192d87737c.mp3"
+        },
+        {
+          "file": "gasp_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/gasp_2.mp3",
+          "durationSec": 1.395,
+          "trimmedSec": 0.125,
+          "gainDb": -6.6,
+          "line": "[gasps] Ah!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/gasps-ah_7bfb6364bf.mp3"
+        }
+      ]
+    },
+    {
+      "id": "ooh",
+      "category": "vocal",
+      "triggers": [
+        "woah",
+        "lookUp"
+      ],
+      "volume": 0.8,
+      "variants": [
+        {
+          "file": "ooh_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/ooh_1.mp3",
+          "durationSec": 1.245,
+          "trimmedSec": 0.115,
+          "gainDb": -4,
+          "f0Hz": 580,
+          "line": "[amazed] Ooooh!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/amazed-ooooh_c9d8f16aea.mp3"
+        },
+        {
+          "file": "ooh_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/ooh_2.mp3",
+          "durationSec": 2.04,
+          "trimmedSec": 0.12,
+          "gainDb": -4.8,
+          "f0Hz": 334,
+          "line": "[softly] Oooh... wow.",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/softly-oooh-wow_51105d0456.mp3"
+        }
+      ]
+    },
+    {
+      "id": "hiii",
+      "category": "vocal",
+      "triggers": [
+        "run",
+        "cheer",
+        "wave"
+      ],
+      "volume": 0.8,
+      "note": "bursting in / greeting a friend",
+      "variants": [
+        {
+          "file": "hiii_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/hiii_1.mp3",
+          "durationSec": 1.035,
+          "trimmedSec": 0.085,
+          "gainDb": -7.8,
+          "f0Hz": 513,
+          "line": "[excited] Hiiiii!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/excited-hiiiii_81659f8ca3.mp3"
+        },
+        {
+          "file": "hiii_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/hiii_2.mp3",
+          "durationSec": 1.77,
+          "trimmedSec": 0.07,
+          "gainDb": -10.6,
+          "f0Hz": 311,
+          "line": "[delighted] Hiii-hiii!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/delighted-hiii-hiii_60529e2832.mp3"
+        }
+      ]
+    },
+    {
+      "id": "chatter",
+      "category": "vocal",
+      "triggers": [
+        "talk"
+      ],
+      "volume": 0.8,
+      "note": "a long stretch of talk (≈4.3 s): mumbly gibberish with clear syllables for the mouth flaps",
+      "variants": [
+        {
+          "file": "chatter_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/chatter_1.mp3",
+          "durationSec": 9.15,
+          "trimmedSec": 0.13,
+          "gainDb": -6.8,
+          "f0Hz": 538,
+          "line": "[excited] Ooh, ooh! Bibba-bloo, nom-nom, wibba-loo! [giggles] Mm-hm, bubba-boo, yum-yum-yum, ooh!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/excited-ooh-ooh-bibba-bloo-nom-nom-wibba_011a50be1c.mp3"
+        },
+        {
+          "file": "chatter_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/chatter_2.mp3",
+          "durationSec": 7.91,
+          "trimmedSec": 0.17,
+          "gainDb": -7.5,
+          "line": "[happily] Ba-bloo-bloo, wubba-doo! Ooh, nibbly-nom! Mm-hm, mm-hm, bloopy-boo! [giggles] Hehe!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/happily-ba-bloo-bloo-wubba-doo-ooh-nibbl_8b431f9d76.mp3"
+        }
+      ]
+    },
+    {
+      "id": "cmon",
+      "category": "vocal",
+      "triggers": [
+        "beckon"
+      ],
+      "volume": 0.8,
+      "note": "eager gibberish \"c'mon c'mon!\" while ushering",
+      "variants": [
+        {
+          "file": "cmon_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/cmon_1.mp3",
+          "durationSec": 1.565,
+          "trimmedSec": 0.035,
+          "gainDb": -7.6,
+          "line": "[excited] C'mon, c'mon!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/excited-c-mon-c-mon_de35aa07ab.mp3"
+        },
+        {
+          "file": "cmon_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/cmon_2.mp3",
+          "durationSec": 1.605,
+          "trimmedSec": 0.075,
+          "gainDb": -10,
+          "line": "[excited] C'mon! Hup-hup!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/excited-c-mon-hup-hup_fba0de5b9f.mp3"
+        }
+      ]
+    },
+    {
+      "id": "hum",
+      "category": "vocal",
+      "triggers": [
+        "walk",
+        "stroll"
+      ],
+      "volume": 0.8,
+      "note": "happy walking hum, play low",
+      "variants": [
+        {
+          "file": "hum_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/hum_1.mp3",
+          "durationSec": 3.925,
+          "trimmedSec": 0.155,
+          "gainDb": 0.4,
+          "f0Hz": 334,
+          "line": "[humming happily] Hmm-hmm-hmm, hmm-hmm, hmm-hmm-hmm...",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/humming-happily-hmm-hmm-hmm-hmm-hmm-hmm-_0c9fd61d05.mp3"
+        }
+      ]
+    },
+    {
+      "id": "woah",
+      "category": "vocal",
+      "triggers": [
+        "woah"
+      ],
+      "volume": 0.8,
+      "note": "on the snap of the double take",
+      "variants": [
+        {
+          "file": "woah_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/woah_1.mp3",
+          "durationSec": 1.32,
+          "trimmedSec": 0.12,
+          "gainDb": -8.5,
+          "f0Hz": 387,
+          "line": "[amazed] Whoa!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/amazed-whoa_a6d154026a.mp3"
+        },
+        {
+          "file": "woah_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/woah_2.mp3",
+          "durationSec": 1.31,
+          "trimmedSec": 0.21,
+          "gainDb": -7.4,
+          "f0Hz": 513,
+          "line": "[startled, amazed] Wooaah!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/startled-amazed-wooaah_0a2543ac13.mp3"
+        }
+      ]
+    },
+    {
+      "id": "yum",
+      "category": "vocal",
+      "triggers": [
+        "sip"
+      ],
+      "volume": 0.8,
+      "note": "food-lover: after the slurp",
+      "variants": [
+        {
+          "file": "yum_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/yum_1.mp3",
+          "durationSec": 1.29,
+          "trimmedSec": 0.15,
+          "gainDb": -4.8,
+          "line": "[happily] Mmm-mmm!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/happily-mmm-mmm_a1883613b6.mp3"
+        },
+        {
+          "file": "yum_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/yum_2.mp3",
+          "durationSec": 1.545,
+          "trimmedSec": 0.135,
+          "gainDb": -5.6,
+          "line": "[delighted] Nom-nom... mmm!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/delighted-nom-nom-mmm_d339bb12cd.mp3"
+        }
+      ]
+    },
+    {
+      "id": "slurp",
+      "category": "foley",
+      "triggers": [
+        "sip"
+      ],
+      "volume": 0.6,
+      "note": "she drinks through a straw",
+      "variants": [
+        {
+          "file": "slurp_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/slurp_1.mp3",
+          "durationSec": 0.606,
+          "trimmedSec": 0.274,
+          "gainDb": 21.7,
+          "prompt": "Small cute slurp of a sweet drink through a straw, little bubbly suck, close, no words",
+          "source": "assets:audio/generated/sfx/small-cute-slurp-of-a-sweet-drink-throug_91df11cc29.mp3"
+        },
+        {
+          "file": "slurp_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/slurp_2.mp3",
+          "durationSec": 0.551,
+          "trimmedSec": 0.329,
+          "gainDb": 16.8,
+          "prompt": "Tiny straw sip, a short gentle slurp with a few bubbles, close, no words",
+          "source": "assets:audio/generated/sfx/tiny-straw-sip-a-short-gentle-slurp-with_4ac9241725.mp3"
+        }
+      ]
+    },
+    {
+      "id": "ahh",
+      "category": "vocal",
+      "triggers": [
+        "sip"
+      ],
+      "volume": 0.8,
+      "variants": [
+        {
+          "file": "ahh_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/ahh_1.mp3",
+          "durationSec": 0.835,
+          "trimmedSec": 0.205,
+          "gainDb": -3.7,
+          "f0Hz": 401,
+          "line": "[satisfied sigh] Ahhh!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/satisfied-sigh-ahhh_cc4dd16f5e.mp3"
+        }
+      ]
+    },
+    {
+      "id": "hup",
+      "category": "vocal",
+      "triggers": [
+        "hop",
+        "jump",
+        "sit",
+        "pickUp"
+      ],
+      "volume": 0.8,
+      "note": "just before take-off / standing up",
+      "variants": [
+        {
+          "file": "hup_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/hup_1.mp3",
+          "durationSec": 1.065,
+          "trimmedSec": 0.135,
+          "gainDb": -9,
+          "f0Hz": 513,
+          "line": "[effort] Hup!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/effort-hup_3d66a26620.mp3"
+        },
+        {
+          "file": "hup_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/hup_2.mp3",
+          "durationSec": 1.065,
+          "trimmedSec": 0.135,
+          "gainDb": -3.3,
+          "f0Hz": 490,
+          "line": "[effort] Hoop!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/effort-hoop_e4f023401e.mp3"
+        }
+      ]
+    },
+    {
+      "id": "strain",
+      "category": "vocal",
+      "triggers": [
+        "crouch",
+        "reach"
+      ],
+      "volume": 0.8,
+      "variants": [
+        {
+          "file": "strain_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/strain_1.mp3",
+          "durationSec": 1.295,
+          "trimmedSec": 0.145,
+          "gainDb": -5.1,
+          "line": "[straining] Nnnnngh!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/straining-nnnnngh_8e4897ddee.mp3"
+        }
+      ]
+    },
+    {
+      "id": "pant",
+      "category": "vocal",
+      "triggers": [
+        "run"
+      ],
+      "volume": 0.8,
+      "note": "after a run",
+      "variants": [
+        {
+          "file": "pant_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/pant_1.mp3",
+          "durationSec": 3.295,
+          "trimmedSec": 0.065,
+          "gainDb": 0.7,
+          "f0Hz": 387,
+          "line": "[out of breath] Hah... hah... hah... hah.",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/out-of-breath-hah-hah-hah-hah_fb421539f0.mp3"
+        }
+      ]
+    },
+    {
+      "id": "hmph",
+      "category": "vocal",
+      "triggers": [
+        "hmph",
+        "stomp"
+      ],
+      "volume": 0.8,
+      "variants": [
+        {
+          "file": "hmph_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/hmph_1.mp3",
+          "durationSec": 0.396,
+          "trimmedSec": 0.244,
+          "gainDb": -5.6,
+          "line": "[pouting] Hmph!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/pouting-hmph_40d5e39c48.mp3"
+        },
+        {
+          "file": "hmph_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/hmph_2.mp3",
+          "durationSec": 0.855,
+          "trimmedSec": 0.105,
+          "gainDb": -4.7,
+          "f0Hz": 408,
+          "line": "[annoyed] Hmmph!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/annoyed-hmmph_85cd875297.mp3"
+        }
+      ]
+    },
+    {
+      "id": "hmm",
+      "category": "vocal",
+      "triggers": [
+        "think",
+        "peer",
+        "shrug"
+      ],
+      "volume": 0.8,
+      "variants": [
+        {
+          "file": "hmm_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/hmm_1.mp3",
+          "durationSec": 1.09,
+          "trimmedSec": 0.11,
+          "gainDb": -8.2,
+          "f0Hz": 394,
+          "line": "[curious] Hmm?",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/curious-hmm_0488e97803.mp3"
+        }
+      ]
+    },
+    {
+      "id": "dizzy-giggle",
+      "category": "vocal",
+      "triggers": [
+        "tumble",
+        "drop"
+      ],
+      "volume": 0.8,
+      "note": "after the dazed stars",
+      "variants": [
+        {
+          "file": "dizzy-giggle_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/dizzy-giggle_1.mp3",
+          "durationSec": 2.605,
+          "trimmedSec": 0.115,
+          "gainDb": -9,
+          "f0Hz": 345,
+          "line": "[dizzy] Whoaa... [giggles] hehehe...",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/dizzy-whoaa-giggles-hehehe_09d61b9db4.mp3"
+        }
+      ]
+    },
+    {
+      "id": "sneeze",
+      "category": "vocal",
+      "triggers": [
+        "sneeze"
+      ],
+      "volume": 0.8,
+      "note": "build then choo: align the choo with the snap",
+      "variants": [
+        {
+          "file": "sneeze_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/sneeze_1.mp3",
+          "durationSec": 3,
+          "trimmedSec": 0.12,
+          "gainDb": -9.1,
+          "f0Hz": 551,
+          "line": "Ah... ah... ahh-choo!",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/ah-ah-ahh-choo_762e234f9d.mp3"
+        },
+        {
+          "file": "sneeze_2.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/sneeze_2.mp3",
+          "durationSec": 3.24,
+          "trimmedSec": 0.04,
+          "gainDb": -6.5,
+          "f0Hz": 760,
+          "line": "Hah... hah... CHOO! [giggles]",
+          "voiceId": "rDu0vcyfx5BKh0INpo3X",
+          "source": "assets:audio/generated/voice/hah-hah-choo-giggles_08806ba54d.mp3"
+        }
+      ]
+    },
+    {
+      "id": "huff-breath",
+      "category": "fx",
+      "triggers": [
+        "huff"
+      ],
+      "volume": 0.7,
+      "variants": [
+        {
+          "file": "huff-breath_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/huff-breath_1.mp3",
+          "durationSec": 0.755,
+          "trimmedSec": 0.045,
+          "gainDb": 13.4,
+          "prompt": "Soft airy breath exhale, gentle whoosh of warm air against glass, no voice, no vocal sound",
+          "source": "assets:audio/generated/sfx/soft-airy-breath-exhale-gentle-whoosh-of_c1738d61ad.mp3"
+        }
+      ]
+    },
+    {
+      "id": "dazed",
+      "category": "fx",
+      "triggers": [
+        "tumble",
+        "drop",
+        "sneeze"
+      ],
+      "volume": 0.7,
+      "variants": [
+        {
+          "file": "dazed_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/dazed_1.mp3",
+          "durationSec": 2,
+          "trimmedSec": 0,
+          "gainDb": 7.7,
+          "prompt": "Dizzy dazed sound after a fall: a clear soft wobbling twinkle of little stars circling, gentle bell tones swirling, audible and present",
+          "source": "assets:audio/generated/sfx/dizzy-dazed-sound-after-a-fall-a-clear-s_535ef294aa.mp3"
+        }
+      ]
+    },
+    {
+      "id": "bubbles",
+      "category": "fx",
+      "triggers": [
+        "wink",
+        "woah",
+        "cheer"
+      ],
+      "volume": 0.7,
+      "note": "her lagoon signature sparkle",
+      "variants": [
+        {
+          "file": "bubbles_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/bubbles_1.mp3",
+          "durationSec": 1,
+          "trimmedSec": 0,
+          "gainDb": 9.4,
+          "prompt": "Cute sparkly little cluster of bubbles popping and rising, light bubbly bloops with a tiny chime, magical lagoon sparkle",
+          "source": "assets:audio/generated/sfx/cute-sparkly-little-cluster-of-bubbles-p_a8763e67e8.mp3"
+        }
+      ]
+    },
+    {
+      "id": "mug-set",
+      "category": "foley",
+      "triggers": [
+        "putDown"
+      ],
+      "volume": 0.6,
+      "note": "at the touch (PUT_TOUCH)",
+      "variants": [
+        {
+          "file": "mug-set_1.mp3",
+          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/mug-set_1.mp3",
+          "durationSec": 0.515,
+          "trimmedSec": 0.085,
+          "gainDb": 24,
+          "quiet": true,
+          "prompt": "Ceramic mug set down gently on a soft rug over wood, soft muted clunk, dry, close",
+          "source": "assets:audio/generated/sfx/ceramic-mug-set-down-gently-on-a-soft-ru_c0e20ea4e0.mp3"
+        }
+      ]
+    }
+  ]
+}

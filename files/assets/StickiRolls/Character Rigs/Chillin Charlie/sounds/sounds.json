@@ -335,12 +335,14 @@
         {
           "file": "effort-humph_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/effort-humph_1.mp3",
-          "durationSec": 0.48,
+          "durationSec": 0.96,
           "trimmedSec": 0,
-          "gainDb": 0.1,
-          "f0Hz": 329,
-          "prompt": "Small cute creature's short effort grunt humph as it pushes off to hop, no words",
-          "source": "assets:audio/generated/sfx/small-cute-creature-s-short-effort-grunt_9c2ee1947e.mp3"
+          "gainDb": -2.6,
+          "f0Hz": 441,
+          "line": "[quick, short effort grunt] Hmf!",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/quick-short-effort-grunt-hmf_8adbe0f78c.mp3"
         }
       ]
     },
@@ -357,12 +359,14 @@
         {
           "file": "strain_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/strain_1.mp3",
-          "durationSec": 1.28,
+          "durationSec": 0.64,
           "trimmedSec": 0,
-          "gainDb": 12.1,
-          "f0Hz": 513,
-          "prompt": "Small cute creature straining with effort while crouching low, tight squeezed nnngh strain, short, no words",
-          "source": "assets:audio/generated/sfx/small-cute-creature-straining-with-effor_0182a16db0.mp3"
+          "gainDb": -8.1,
+          "f0Hz": 221,
+          "line": "[straining] Nnnnnngh...",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/straining-nnnnnngh_4aed09c47b.mp3"
         }
       ]
     },
@@ -378,12 +382,14 @@
         {
           "file": "pant_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/pant_1.mp3",
-          "durationSec": 1.565,
-          "trimmedSec": 0.195,
-          "gainDb": 24,
-          "f0Hz": 1002,
-          "prompt": "Small cute creature panting out of breath after running, quick soft breaths, no words",
-          "source": "assets:audio/generated/sfx/small-cute-creature-panting-out-of-breat_de1e2d0c39.mp3"
+          "durationSec": 2.774,
+          "trimmedSec": 0.304,
+          "gainDb": -6.4,
+          "f0Hz": 416,
+          "line": "[out of breath] Hah... hah... hah... hah...",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/out-of-breath-hah-hah-hah-hah_1892ab8d21.mp3"
         }
       ]
     },
@@ -399,22 +405,25 @@
         {
           "file": "hmph_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/hmph_1.mp3",
-          "durationSec": 0.581,
-          "trimmedSec": 0.1,
-          "gainDb": 13.1,
-          "f0Hz": 361,
-          "prompt": "Short indignant hmph through the nose with a closed mouth, grumpy but cute, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
-          "source": "assets:audio/generated/sfx/short-indignant-hmph-through-the-nose-wi_7cb6eb0db8.mp3"
+          "durationSec": 0.604,
+          "trimmedSec": 0,
+          "gainDb": -6.3,
+          "line": "[grumpy] Hmph!",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/grumpy-hmph_b03fc61d13.mp3"
         },
         {
           "file": "hmph_2.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/hmph_2.mp3",
-          "durationSec": 0.451,
-          "trimmedSec": 0.229,
-          "gainDb": -1.7,
-          "f0Hz": 263,
-          "prompt": "Little offended nose huff, a short pouty hmph, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
-          "source": "assets:audio/generated/sfx/little-offended-nose-huff-a-short-pouty-_1a80fa3ada.mp3"
+          "durationSec": 0.484,
+          "trimmedSec": 0.105,
+          "gainDb": -9.6,
+          "f0Hz": 298,
+          "line": "[pouting] Hmmph.",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/pouting-hmmph_5121874ba8.mp3"
         }
       ]
     },
@@ -431,22 +440,26 @@
         {
           "file": "content-sigh_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/content-sigh_1.mp3",
-          "durationSec": 1.071,
-          "trimmedSec": 0.289,
-          "gainDb": 6.7,
-          "f0Hz": 306,
-          "prompt": "Soft contented sigh, a relaxed happy mmm exhale, sleepy and cosy, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
-          "source": "assets:audio/generated/sfx/soft-contented-sigh-a-relaxed-happy-mmm-_fe0b1635d8.mp3"
+          "durationSec": 0.88,
+          "trimmedSec": 0.08,
+          "gainDb": -7.1,
+          "f0Hz": 283,
+          "line": "[sighs contentedly] Mmmhh...",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/sighs-contentedly-mmmhh_e53ccdd4f6.mp3"
         },
         {
           "file": "content-sigh_2.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/content-sigh_2.mp3",
-          "durationSec": 1.051,
-          "trimmedSec": 0.309,
-          "gainDb": 21.2,
-          "f0Hz": 298,
-          "prompt": "Long gentle sigh of relief and comfort settling in, warm and sleepy, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
-          "source": "assets:audio/generated/sfx/long-gentle-sigh-of-relief-and-comfort-s_e6abf40e68.mp3"
+          "durationSec": 0.805,
+          "trimmedSec": 0.075,
+          "gainDb": -7.5,
+          "f0Hz": 315,
+          "line": "[relieved sigh] Haaahh...",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/relieved-sigh-haaahh_1ececdb2f1.mp3"
         }
       ]
     },
@@ -491,11 +504,14 @@
         {
           "file": "ahh_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/ahh_1.mp3",
-          "durationSec": 0.98,
-          "trimmedSec": 0.02,
-          "gainDb": 23.5,
-          "prompt": "Soft satisfied little ahh after a warm drink, mellow and cosy, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
-          "source": "assets:audio/generated/sfx/soft-satisfied-little-ahh-after-a-warm-d_b2b2d205c2.mp3"
+          "durationSec": 0.63,
+          "trimmedSec": 0.01,
+          "gainDb": -8.4,
+          "f0Hz": 235,
+          "line": "[satisfied] Ahhh...",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/satisfied-ahhh_a9ff522998.mp3"
         }
       ]
     },
@@ -512,22 +528,26 @@
         {
           "file": "gasp_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/gasp_1.mp3",
-          "durationSec": 0.515,
-          "trimmedSec": 0.085,
-          "gainDb": 18.5,
-          "f0Hz": 501,
-          "prompt": "Soft short surprised gasp, a quick breathy intake, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
-          "source": "assets:audio/generated/sfx/soft-short-surprised-gasp-a-quick-breath_0e1a8641e9.mp3"
+          "durationSec": 0.79,
+          "trimmedSec": 0.09,
+          "gainDb": -7.5,
+          "f0Hz": 259,
+          "line": "[gasps softly] Hh!",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/gasps-softly-hh_8f75fe2f15.mp3"
         },
         {
           "file": "gasp_2.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/gasp_2.mp3",
-          "durationSec": 0.565,
-          "trimmedSec": 0.035,
-          "gainDb": 14.9,
-          "f0Hz": 479,
-          "prompt": "Little startled gasp with a tiny squeak in it, breathy, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
-          "source": "assets:audio/generated/sfx/little-startled-gasp-with-a-tiny-squeak-_33fc2739e1.mp3"
+          "durationSec": 0.933,
+          "trimmedSec": 0.1,
+          "gainDb": -6.6,
+          "f0Hz": 345,
+          "line": "[gasps] Oh-!",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/gasps-oh_0b37971a1a.mp3"
         }
       ]
     },
@@ -544,22 +564,26 @@
         {
           "file": "ooh_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/ooh_1.mp3",
-          "durationSec": 1.106,
-          "trimmedSec": 0.254,
-          "gainDb": 10.6,
-          "f0Hz": 315,
-          "prompt": "Soft amazed ooh of wonder, breathy and awed, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
-          "source": "assets:audio/generated/sfx/soft-amazed-ooh-of-wonder-breathy-and-aw_f6e31be5f5.mp3"
+          "durationSec": 0.635,
+          "trimmedSec": 0.005,
+          "gainDb": -8,
+          "f0Hz": 225,
+          "line": "[in awe, softly] Ooooooh...",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/in-awe-softly-ooooooh_af93796721.mp3"
         },
         {
           "file": "ooh_2.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/ooh_2.mp3",
-          "durationSec": 1.131,
-          "trimmedSec": 0.229,
-          "gainDb": 15.1,
-          "f0Hz": 374,
-          "prompt": "Slow quiet wow-like ooh, gentle amazement, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
-          "source": "assets:audio/generated/sfx/slow-quiet-wow-like-ooh-gentle-amazement_0f37ca65e6.mp3"
+          "durationSec": 0.885,
+          "trimmedSec": 0.075,
+          "gainDb": -7.3,
+          "f0Hz": 276,
+          "line": "[amazed, quietly] Ooooh...",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/amazed-quietly-ooooh_28c870def9.mp3"
         }
       ]
     },
@@ -577,22 +601,26 @@
         {
           "file": "chuckle_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/chuckle_1.mp3",
-          "durationSec": 0.855,
-          "trimmedSec": 0.145,
-          "gainDb": 3.4,
-          "f0Hz": 479,
-          "prompt": "Soft gentle chuckle, a shy closed-mouth happy giggle, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
-          "source": "assets:audio/generated/sfx/soft-gentle-chuckle-a-shy-closed-mouth-h_f6c30f581c.mp3"
+          "durationSec": 0.72,
+          "trimmedSec": 0,
+          "gainDb": -4.9,
+          "f0Hz": 401,
+          "line": "[chuckles softly] Hm-hm-hm.",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/chuckles-softly-hm-hm-hm_56ff1a281a.mp3"
         },
         {
           "file": "chuckle_2.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/chuckle_2.mp3",
-          "durationSec": 0.845,
-          "trimmedSec": 0.155,
-          "gainDb": 17.8,
-          "f0Hz": 298,
-          "prompt": "Small warm happy laugh, two or three soft hehs, bashful, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
-          "source": "assets:audio/generated/sfx/small-warm-happy-laugh-two-or-three-soft_5d84f05258.mp3"
+          "durationSec": 0.843,
+          "trimmedSec": 0,
+          "gainDb": -3.8,
+          "f0Hz": 416,
+          "line": "[shy giggle] Hehe...",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/shy-giggle-hehe_c78a4e6c6d.mp3"
         }
       ]
     },
@@ -610,12 +638,14 @@
         {
           "file": "hmm_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/hmm_1.mp3",
-          "durationSec": 0.86,
-          "trimmedSec": 0.14,
-          "gainDb": 14.2,
-          "f0Hz": 253,
-          "prompt": "Soft thoughtful hmm hum with a closed mouth, low and curious, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
-          "source": "assets:audio/generated/sfx/soft-thoughtful-hmm-hum-with-a-closed-mo_3c1bd973af.mp3"
+          "durationSec": 0.88,
+          "trimmedSec": 0,
+          "gainDb": -7.5,
+          "f0Hz": 230,
+          "line": "[thoughtful] Hmmm...",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/thoughtful-hmmm_03e72f114b.mp3"
         }
       ]
     },
@@ -632,21 +662,26 @@
         {
           "file": "hup_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/hup_1.mp3",
-          "durationSec": 0.41,
-          "trimmedSec": 0.07,
-          "gainDb": 19.2,
-          "prompt": "Tiny soft effort hup, a short light push of breath, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
-          "source": "assets:audio/generated/sfx/tiny-soft-effort-hup-a-short-light-push-_68c95fb172.mp3"
+          "durationSec": 0.72,
+          "trimmedSec": 0,
+          "gainDb": -4.4,
+          "f0Hz": 401,
+          "line": "[small effort] Hup.",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/small-effort-hup_20d7fb4bcd.mp3"
         },
         {
           "file": "hup_2.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/hup_2.mp3",
-          "durationSec": 0.345,
-          "trimmedSec": 0.135,
-          "gainDb": 16.6,
-          "f0Hz": 302,
-          "prompt": "Short clear hup! of effort as it stands up from sitting, a soft little grunt, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
-          "source": "assets:audio/generated/sfx/short-clear-hup-of-effort-as-it-stands-u_5a96e5081f.mp3"
+          "durationSec": 0.56,
+          "trimmedSec": 0,
+          "gainDb": -0.6,
+          "f0Hz": 276,
+          "line": "[effort] Hup!",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/effort-hup_b6186503d5.mp3"
         }
       ]
     },
@@ -662,22 +697,26 @@
         {
           "file": "oh_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/oh_1.mp3",
-          "durationSec": 0.5,
-          "trimmedSec": 0.1,
-          "gainDb": 9.7,
-          "f0Hz": 424,
-          "prompt": "Small startled oh!, a short surprised vocal yelp-gasp, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
-          "source": "assets:audio/generated/sfx/small-startled-oh-a-short-surprised-voca_9e40bb2017.mp3"
+          "durationSec": 0.86,
+          "trimmedSec": 0.02,
+          "gainDb": -7.9,
+          "f0Hz": 216,
+          "line": "[startled] Oh!",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/startled-oh_be09feb6a0.mp3"
         },
         {
           "file": "oh_2.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/oh_2.mp3",
-          "durationSec": 0.47,
+          "durationSec": 0.454,
           "trimmedSec": 0.13,
-          "gainDb": 4.3,
-          "f0Hz": 334,
-          "prompt": "Little surprised oh with a breathy jump in it, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
-          "source": "assets:audio/generated/sfx/little-surprised-oh-with-a-breathy-jump-_48f7bcb6ac.mp3"
+          "gainDb": -8.5,
+          "f0Hz": 394,
+          "line": "[surprised] Oh-!",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/surprised-oh_41ce5f3a3c.mp3"
         }
       ]
     },
@@ -693,22 +732,26 @@
         {
           "file": "mm-hm_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/mm-hm_1.mp3",
-          "durationSec": 0.745,
-          "trimmedSec": 0.135,
-          "gainDb": 9.6,
-          "f0Hz": 237,
-          "prompt": "Thoughtful agreeing mm-hm hum with a closed mouth, slow and serious, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
-          "source": "assets:audio/generated/sfx/thoughtful-agreeing-mm-hm-hum-with-a-clo_b28202b39d.mp3"
+          "durationSec": 0.993,
+          "trimmedSec": 0.075,
+          "gainDb": -8,
+          "f0Hz": 227,
+          "line": "[thoughtfully agreeing] Mm-hm.",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/thoughtfully-agreeing-mm-hm_a4da8dfce4.mp3"
         },
         {
           "file": "mm-hm_2.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/mm-hm_2.mp3",
-          "durationSec": 0.79,
-          "trimmedSec": 0.09,
-          "gainDb": 8.1,
-          "f0Hz": 259,
-          "prompt": "Slow considered mm-hmm of agreement, two soft closed-mouth hums, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
-          "source": "assets:audio/generated/sfx/slow-considered-mm-hmm-of-agreement-two-_edc7b67880.mp3"
+          "durationSec": 1.018,
+          "trimmedSec": 0.11,
+          "gainDb": -10.2,
+          "f0Hz": 245,
+          "line": "[slowly agreeing] Mm-hmm.",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/slowly-agreeing-mm-hmm_98064ff421.mp3"
         }
       ]
     },
@@ -724,12 +767,14 @@
         {
           "file": "content-hmm_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/content-hmm_1.mp3",
-          "durationSec": 0.576,
-          "trimmedSec": 0.304,
-          "gainDb": 14,
-          "f0Hz": 302,
-          "prompt": "Contented little hmm as it settles in, warm closed-mouth hum, cosy, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
-          "source": "assets:audio/generated/sfx/contented-little-hmm-as-it-settles-in-wa_d8dc0519a0.mp3"
+          "durationSec": 0.88,
+          "trimmedSec": 0,
+          "gainDb": -8.1,
+          "f0Hz": 272,
+          "line": "[contentedly] Mmm.",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/contentedly-mmm_142ae4372e.mp3"
         }
       ]
     },
@@ -745,22 +790,26 @@
         {
           "file": "woah_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/woah_1.mp3",
-          "durationSec": 0.8,
+          "durationSec": 0.64,
           "trimmedSec": 0,
-          "gainDb": -0.8,
-          "f0Hz": 408,
-          "prompt": "Startled amazed whoa! exclamation, a breathy sudden wah, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
-          "source": "assets:audio/generated/sfx/startled-amazed-whoa-exclamation-a-breat_912f9616b8.mp3"
+          "gainDb": -8.3,
+          "f0Hz": 259,
+          "line": "[startled, amazed] Whoa!",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/startled-amazed-whoa_0485cc569f.mp3"
         },
         {
           "file": "woah_2.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/woah_2.mp3",
-          "durationSec": 0.65,
-          "trimmedSec": 0.15,
-          "gainDb": 12.9,
-          "f0Hz": 334,
-          "prompt": "Sudden wide-eyed woah, a short amazed vocal burst, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
-          "source": "assets:audio/generated/sfx/sudden-wide-eyed-woah-a-short-amazed-voc_16a3579d1b.mp3"
+          "durationSec": 0.79,
+          "trimmedSec": 0.09,
+          "gainDb": -7.7,
+          "f0Hz": 242,
+          "line": "[amazed] Woah!",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/amazed-woah_253cdcf5f3.mp3"
         }
       ]
     },
@@ -774,13 +823,14 @@
         {
           "file": "yawn_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/yawn_1.mp3",
-          "durationSec": 1.76,
-          "trimmedSec": 0,
-          "gainDb": 24,
-          "f0Hz": 1470,
-          "quiet": true,
-          "prompt": "Soft sleepy little yawn, slow and cosy, a small chubby baby penguin, soft mellow breathy voice, low-pitched for its size, gentle and unhurried, cute, no words, no speech",
-          "source": "assets:audio/generated/sfx/soft-sleepy-little-yawn-slow-and-cosy-a-_01b47493d5.mp3"
+          "durationSec": 2.63,
+          "trimmedSec": 0.01,
+          "gainDb": -4.8,
+          "f0Hz": 251,
+          "line": "[yawns] Hhaaaahhh... mm.",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/yawns-hhaaaahhh-mm_1813b4203f.mp3"
         }
       ]
     },
@@ -796,20 +846,25 @@
         {
           "file": "sneeze_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/sneeze_1.mp3",
-          "durationSec": 1.36,
-          "trimmedSec": 0,
-          "gainDb": 2.1,
-          "prompt": "Tiny cute sneeze of a small chubby penguin: a breathy ah... ah... then a soft squeaky choo, no words",
-          "source": "assets:audio/generated/sfx/tiny-cute-sneeze-of-a-small-chubby-pengu_7a4a08137e.mp3"
+          "durationSec": 2.849,
+          "trimmedSec": 0.289,
+          "gainDb": -6.8,
+          "f0Hz": 551,
+          "line": "[about to sneeze] Ah... ahh... [sneezes] choo!",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/about-to-sneeze-ah-ahh-sneezes-choo_341e1138e5.mp3"
         },
         {
           "file": "sneeze_2.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/sneeze_2.mp3",
-          "durationSec": 0.707,
-          "trimmedSec": 0.653,
-          "gainDb": 0.4,
-          "prompt": "Small adorable sneeze, two quick soft breath catches then a little high soft achoo, no words",
-          "source": "assets:audio/generated/sfx/small-adorable-sneeze-two-quick-soft-bre_bc62654790.mp3"
+          "durationSec": 2.03,
+          "trimmedSec": 0.13,
+          "gainDb": -8.8,
+          "line": "[sneezes] Ah-choo!",
+          "voiceId": "p8ILxy7Qr9h4pEzwxoSk",
+          "pitchShift": 1.1,
+          "source": "assets:audio/generated/voice/sneezes-ah-choo_6531975ef1.mp3"
         }
       ]
     },

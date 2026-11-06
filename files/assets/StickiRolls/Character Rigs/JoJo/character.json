@@ -1,0 +1,77 @@
+{
+  "manifestVersion": 1,
+  "id": "stickirolls-jojo",
+  "name": "JoJo",
+  "status": "reference",
+  "notes": "No 2D cutout parts (2D layers show a labelled placeholder). Full-turnaround procedural 3D model in model3d (builder dino, variant jojo: Rex's measured shape family remapped to her sheet), rendered by Three.js scenes via stage3d model kind \"character\". Design authority: reference/generated/jojo-character-reference-v1.png; official art and lore panels are the identity authority. Jojo is female (she/her). Not yet supported: backpack, walking stick, map, mug holding and lens writing.",
+  "reference": [
+    "reference/official/lore-panels/Character-Lore-Rex-Jojo-01-scaled-wp16765.webp",
+    "reference/official/lore-panels/Character-Lore-Rex-Jojo-02-scaled-wp16764.webp",
+    "reference/official/lore-panels/Character-Lore-Rex-Jojo-03-scaled-wp16763.webp",
+    "reference/official/lore-panels/Character-Lore-Rex-Jojo-04-scaled-wp16762.webp",
+    "reference/official/lore-panels/Character-Lore-Rex-Jojo-05-scaled-wp16761.webp",
+    "reference/official/lore-panels/Character-Lore-Rex-Jojo-06-scaled-wp16760.webp",
+    "reference/official/lore-panels/Character-Lore-Rex-Jojo-07-scaled-wp16759.webp",
+    "reference/official/lore-panels/Character-Lore-Rex-Jojo-08-scaled-wp16758.webp",
+    "reference/official/artwork/17039-SR0385-Rex-JoJo-On-the-Go-HR-scaled.webp",
+    "reference/official/artwork/16840-SR0268-Rex-Jojo%CE%93COs-Snackventure_HR-scaled.webp",
+    "reference/official/artwork/14679-SR3_BFFs_Rex-and-Jojo-Snackventure.webp",
+    "reference/official/artwork/14678-SR3_Laser_Engraved_Rex-and-Jojo-On-The-Go.webp",
+    "reference/official/artwork/14566-0385-SR3_Laser-Engraved_Sapphire_Rex_and_Jojo-scaled.webp",
+    "reference/official/artwork/14330-SR0385-Rex-JoJo-On-the-Go-scaled.jpg",
+    "reference/official/artwork/13807-SR0268-Rex-Jojos-Snackventure_Artboard-1-scaled.webp",
+    "reference/official/artwork/3407-SR0242-Rex-Jojo-Limited-Edition-01-1.webp",
+    "reference/official/artwork/3406-Rex-Jojo-Titanium.webp",
+    "reference/official/artwork/2531-Rex-Jojo-BFFS.webp",
+    "reference/official/artwork/3316-SR220_Rex-and-Jojo-01-1.webp",
+    "reference/official/artwork/3315-Rex-Jojo-Vacation.webp",
+    "reference/official/artwork/16703-SR0375-JoJo-Fun-HR-scaled.webp",
+    "reference/official/artwork/2530-SR0017-Rex-Jojo-01.webp",
+    "reference/official/artwork/17069-SR0375-JoJo-Fun-HR-scaled.webp",
+    "reference/official/artwork/15165-JOJO-FUN.webp",
+    "reference/official/artwork/14642-SR3_Sticki_Mates_Exclusive_Jojo-Fun.webp",
+    "reference/official/artwork/14019-SR0375-JoJo-Fun-01-scaled.webp",
+    "reference/generated/jojo-character-reference-v1.png"
+  ],
+  "parts": [],
+  "views": {
+    "front": "ready",
+    "threeQuarter": "ready",
+    "side": "ready",
+    "back": "ready"
+  },
+  "controls": [],
+  "model3d": {
+    "builder": "dino",
+    "variant": "jojo",
+    "colors": {
+      "body": "#fc93ba",
+      "bodyLight": "#fdadc9",
+      "shade": "#f27ba6",
+      "belly": "#fcc4d2",
+      "crease": "#e8679a",
+      "cheek": "#fa648e",
+      "eye": "#3b1a10",
+      "highlight": "#ffffff",
+      "mouth": "#7a1f2a",
+      "tongue": "#ff8fae",
+      "outline": "#4f2012"
+    },
+    "proportions": {
+      "footSpread": 0.42,
+      "footForward": 0.02,
+      "outline": 15
+    },
+    "gait": {
+      "stepLength": 0.29,
+      "bob": 0.028,
+      "sway": 0.04,
+      "roll": 3.5,
+      "lift": 0.07,
+      "lean": 4,
+      "walkYaw": 80,
+      "squash": 0.035,
+      "headBounce": 0.018
+    }
+  }
+}

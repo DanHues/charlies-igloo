@@ -1,0 +1,72 @@
+[
+  {
+    "start": 324,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/hup_2.mp3",
+    "durationSec": 0.56,
+    "volume": 0.7,
+    "label": "Charlie: hup (bending to the mug)"
+  },
+  {
+    "start": 434,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/content-hmm_1.mp3",
+    "durationSec": 0.88,
+    "volume": 0.75,
+    "label": "Charlie: content hmm (plops down with the cocoa)"
+  },
+  {
+    "start": 490,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/sip_1.mp3",
+    "durationSec": 0.79,
+    "volume": 0.7,
+    "label": "Charlie: slurp"
+  },
+  {
+    "start": 512,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/ahh_1.mp3",
+    "durationSec": 0.63,
+    "volume": 0.75,
+    "label": "Charlie: ahh"
+  },
+  {
+    "start": 541,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/oh_2.mp3",
+    "durationSec": 0.454,
+    "volume": 0.85,
+    "label": "Charlie: oh! (startled by the curtain)"
+  },
+  {
+    "start": 642,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/mm-hm_2.mp3",
+    "durationSec": 1.018,
+    "volume": 0.7,
+    "label": "Charlie: mm-hm (nod 1)"
+  },
+  {
+    "start": 694,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/mm-hm_1.mp3",
+    "durationSec": 0.993,
+    "volume": 0.7,
+    "label": "Charlie: mm-hm (nod 2)"
+  },
+  {
+    "start": 834,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/hup_1.mp3",
+    "durationSec": 0.72,
+    "volume": 0.75,
+    "label": "Charlie: hup (stands up)"
+  },
+  {
+    "start": 1470,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/woah_2.mp3",
+    "durationSec": 0.79,
+    "volume": 0.9,
+    "label": "Charlie: WOAH (snap)"
+  },
+  {
+    "start": 1492,
+    "ref": "assets:StickiRolls/Character Rigs/Chillin Charlie/sounds/ooh_2.mp3",
+    "durationSec": 0.885,
+    "volume": 0.8,
+    "label": "Charlie: ooooh (wonder)"
+  }
+]
