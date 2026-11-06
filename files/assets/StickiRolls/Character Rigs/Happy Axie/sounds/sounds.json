@@ -99,9 +99,9 @@
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/step-rug_3.mp3",
           "durationSec": 0.41,
           "trimmedSec": 0.07,
-          "gainDb": -8.9,
-          "prompt": "Single tiny padded footfall of a small soft creature on carpet, gentle muffled pat, dry, close",
-          "source": "assets:audio/generated/sfx/single-tiny-padded-footfall-of-a-small-s_b47afa82ad.mp3"
+          "gainDb": 20.3,
+          "prompt": "Single very light soft footstep of a tiny creature on a woolly rug, a small gentle pat, light and soft, dry, close",
+          "source": "assets:audio/generated/sfx/single-very-light-soft-footstep-of-a-tin_99b60c3b8b.mp3"
         }
       ]
     },
@@ -288,11 +288,11 @@
         {
           "file": "gill-wiggle_2.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/gill-wiggle_2.mp3",
-          "durationSec": 0.5,
-          "trimmedSec": 0.1,
-          "gainDb": 22.1,
-          "prompt": "Gentle wobbly jelly flutter of small soft frills shaking, tiny squishy jiggle, dry, close",
-          "source": "assets:audio/generated/sfx/gentle-wobbly-jelly-flutter-of-small-sof_2fd09c06d1.mp3"
+          "durationSec": 0.48,
+          "trimmedSec": 0.12,
+          "gainDb": 23.5,
+          "prompt": "Soft wet squishy wobble of a little jelly-like creature, gentle squelchy jiggle, no rattle, no jingle, no metal, dry, close",
+          "source": "assets:audio/generated/sfx/soft-wet-squishy-wobble-of-a-little-jell_9969305b9c.mp3"
         }
       ]
     },
@@ -305,19 +305,11 @@
         "run"
       ],
       "volume": 0.6,
+      "note": "one take only: the other prompt kept coming back as a low drum-like thump",
       "variants": [
         {
           "file": "tail-swish_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/tail-swish_1.mp3",
-          "durationSec": 0.485,
-          "trimmedSec": 0.115,
-          "gainDb": -0.9,
-          "prompt": "Soft quick swish of a small rubbery tail through the air, light airy whoosh, dry, close",
-          "source": "assets:audio/generated/sfx/soft-quick-swish-of-a-small-rubbery-tail_e91a573258.mp3"
-        },
-        {
-          "file": "tail-swish_2.mp3",
-          "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/tail-swish_2.mp3",
           "durationSec": 0.43,
           "trimmedSec": 0.17,
           "gainDb": 6.3,
@@ -342,7 +334,7 @@
         {
           "file": "giggle_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/giggle_1.mp3",
-          "durationSec": 1.32,
+          "durationSec": 1.212,
           "trimmedSec": 0.12,
           "gainDb": -4,
           "f0Hz": 551,
@@ -364,7 +356,7 @@
         {
           "file": "giggle_3.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/giggle_3.mp3",
-          "durationSec": 2.96,
+          "durationSec": 2.674,
           "trimmedSec": 0,
           "gainDb": -4.6,
           "f0Hz": 248,
@@ -386,7 +378,7 @@
         {
           "file": "babble_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/babble_1.mp3",
-          "durationSec": 5.295,
+          "durationSec": 5.188,
           "trimmedSec": 0.065,
           "gainDb": -6,
           "f0Hz": 959,
@@ -397,7 +389,7 @@
         {
           "file": "babble_2.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/babble_2.mp3",
-          "durationSec": 3.51,
+          "durationSec": 3.437,
           "trimmedSec": 0.17,
           "gainDb": -6.7,
           "line": "[happily] Ba-bloo, bubba-loo, ooh, yummy-yum!",
@@ -418,7 +410,7 @@
         {
           "file": "come-on_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/come-on_1.mp3",
-          "durationSec": 1.925,
+          "durationSec": 1.342,
           "trimmedSec": 0.075,
           "gainDb": -8.6,
           "f0Hz": 817,
@@ -451,7 +443,7 @@
         {
           "file": "squeal_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/squeal_1.mp3",
-          "durationSec": 1.255,
+          "durationSec": 1.123,
           "trimmedSec": 0.185,
           "gainDb": -7.6,
           "line": "[delighted] Eeeee!",
@@ -472,7 +464,7 @@
         {
           "file": "gasp_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/gasp_1.mp3",
-          "durationSec": 1.335,
+          "durationSec": 1.252,
           "trimmedSec": 0.105,
           "gainDb": -6.3,
           "f0Hz": 580,
@@ -504,7 +496,7 @@
         {
           "file": "ooh_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/ooh_1.mp3",
-          "durationSec": 1.245,
+          "durationSec": 1.177,
           "trimmedSec": 0.115,
           "gainDb": -4,
           "f0Hz": 580,
@@ -539,7 +531,7 @@
         {
           "file": "hiii_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/hiii_1.mp3",
-          "durationSec": 1.035,
+          "durationSec": 0.883,
           "trimmedSec": 0.085,
           "gainDb": -7.8,
           "f0Hz": 513,
@@ -550,7 +542,7 @@
         {
           "file": "hiii_2.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/hiii_2.mp3",
-          "durationSec": 1.77,
+          "durationSec": 1.168,
           "trimmedSec": 0.07,
           "gainDb": -10.6,
           "f0Hz": 311,
@@ -583,7 +575,7 @@
         {
           "file": "chatter_2.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/chatter_2.mp3",
-          "durationSec": 7.91,
+          "durationSec": 7.802,
           "trimmedSec": 0.17,
           "gainDb": -7.5,
           "line": "[happily] Ba-bloo-bloo, wubba-doo! Ooh, nibbly-nom! Mm-hm, mm-hm, bloopy-boo! [giggles] Hehe!",
@@ -604,7 +596,7 @@
         {
           "file": "cmon_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/cmon_1.mp3",
-          "durationSec": 1.565,
+          "durationSec": 1.237,
           "trimmedSec": 0.035,
           "gainDb": -7.6,
           "line": "[excited] C'mon, c'mon!",
@@ -614,7 +606,7 @@
         {
           "file": "cmon_2.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/cmon_2.mp3",
-          "durationSec": 1.605,
+          "durationSec": 1.163,
           "trimmedSec": 0.075,
           "gainDb": -10,
           "line": "[excited] C'mon! Hup-hup!",
@@ -658,7 +650,7 @@
         {
           "file": "woah_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/woah_1.mp3",
-          "durationSec": 1.32,
+          "durationSec": 1.068,
           "trimmedSec": 0.12,
           "gainDb": -8.5,
           "f0Hz": 387,
@@ -669,7 +661,7 @@
         {
           "file": "woah_2.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/woah_2.mp3",
-          "durationSec": 1.31,
+          "durationSec": 1.073,
           "trimmedSec": 0.21,
           "gainDb": -7.4,
           "f0Hz": 513,
@@ -691,7 +683,7 @@
         {
           "file": "yum_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/yum_1.mp3",
-          "durationSec": 1.29,
+          "durationSec": 1.048,
           "trimmedSec": 0.15,
           "gainDb": -4.8,
           "line": "[happily] Mmm-mmm!",
@@ -775,7 +767,7 @@
         {
           "file": "hup_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/hup_1.mp3",
-          "durationSec": 1.065,
+          "durationSec": 0.275,
           "trimmedSec": 0.135,
           "gainDb": -9,
           "f0Hz": 513,
@@ -786,7 +778,7 @@
         {
           "file": "hup_2.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/hup_2.mp3",
-          "durationSec": 1.065,
+          "durationSec": 0.574,
           "trimmedSec": 0.135,
           "gainDb": -3.3,
           "f0Hz": 490,
@@ -808,7 +800,7 @@
         {
           "file": "strain_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/strain_1.mp3",
-          "durationSec": 1.295,
+          "durationSec": 1.043,
           "trimmedSec": 0.145,
           "gainDb": -5.1,
           "line": "[straining] Nnnnngh!",
@@ -829,7 +821,7 @@
         {
           "file": "pant_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/pant_1.mp3",
-          "durationSec": 3.295,
+          "durationSec": 1.861,
           "trimmedSec": 0.065,
           "gainDb": 0.7,
           "f0Hz": 387,
@@ -861,7 +853,7 @@
         {
           "file": "hmph_2.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/hmph_2.mp3",
-          "durationSec": 0.855,
+          "durationSec": 0.414,
           "trimmedSec": 0.105,
           "gainDb": -4.7,
           "f0Hz": 408,
@@ -907,7 +899,7 @@
         {
           "file": "dizzy-giggle_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/dizzy-giggle_1.mp3",
-          "durationSec": 2.605,
+          "durationSec": 2.539,
           "trimmedSec": 0.115,
           "gainDb": -9,
           "f0Hz": 345,
@@ -929,7 +921,7 @@
         {
           "file": "sneeze_1.mp3",
           "ref": "assets:StickiRolls/Character Rigs/Happy Axie/sounds/sneeze_1.mp3",
-          "durationSec": 3,
+          "durationSec": 2.799,
           "trimmedSec": 0.12,
           "gainDb": -9.1,
           "f0Hz": 551,
